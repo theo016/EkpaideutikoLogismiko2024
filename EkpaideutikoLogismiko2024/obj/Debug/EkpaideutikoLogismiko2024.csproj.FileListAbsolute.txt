@@ -1,0 +1,11 @@
+C:\Users\doriz\source\repos\EkpaideutikoLogismiko2024\bin\Debug\EkpaideutikoLogismiko2024.exe.config
+C:\Users\doriz\source\repos\EkpaideutikoLogismiko2024\bin\Debug\EkpaideutikoLogismiko2024.exe
+C:\Users\doriz\source\repos\EkpaideutikoLogismiko2024\bin\Debug\EkpaideutikoLogismiko2024.pdb
+C:\Users\doriz\source\repos\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.csproj.AssemblyReference.cache
+C:\Users\doriz\source\repos\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.Form1.resources
+C:\Users\doriz\source\repos\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.Form2.resources
+C:\Users\doriz\source\repos\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.Properties.Resources.resources
+C:\Users\doriz\source\repos\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.csproj.GenerateResource.cache
+C:\Users\doriz\source\repos\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.csproj.CoreCompileInputs.cache
+C:\Users\doriz\source\repos\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.exe
+C:\Users\doriz\source\repos\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.pdb
