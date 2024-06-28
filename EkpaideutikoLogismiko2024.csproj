@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Intro-BasicSyntax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intro-BasicSyntax.Designer.cs">
+      <DependentUpon>Intro-BasicSyntax.cs</DependentUpon>
+    </Compile>
     <Compile Include="Intro-Installation&amp;Setup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Intro-BasicSyntax.resx">
+      <DependentUpon>Intro-BasicSyntax.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Intro-Installation&amp;Setup.resx">
       <DependentUpon>Intro-Installation&amp;Setup.cs</DependentUpon>
     </EmbeddedResource>
