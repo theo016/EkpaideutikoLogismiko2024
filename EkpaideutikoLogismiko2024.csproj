@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Intro-Installation&amp;Setup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intro-Installation&amp;Setup.Designer.cs">
+      <DependentUpon>Intro-Installation&amp;Setup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Introduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Introduction.Designer.cs">
+      <DependentUpon>Introduction.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +78,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Intro-Installation&amp;Setup.resx">
+      <DependentUpon>Intro-Installation&amp;Setup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Introduction.resx">
+      <DependentUpon>Introduction.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
