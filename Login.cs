@@ -33,10 +33,22 @@ namespace EkpaideutikoLogismiko2024
 
         private void label5_Click(object sender, EventArgs e)
         {
-            SignUp f2 = new SignUp();
+            this.Hide();
+            var SignUp = new SignUp();
+            SignUp.Closed += (s, args) => this.Close();
+            SignUp.Show();
 
-            f2.Show();
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var message = "Successful Login.";
+            MessageBox.Show(message);
+
+            this.Hide();
+            var Menu = new Menu();
+            Menu.Closed += (s, args) => this.Close();
+            Menu.Show();
         }
     }
 }

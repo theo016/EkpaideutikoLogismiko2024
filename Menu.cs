@@ -26,5 +26,13 @@ namespace EkpaideutikoLogismiko2024
         {
 
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var Introduction = new Introduction();
+            Introduction.Closed += (s, args) => this.Close();
+            Introduction.Show();
+        }
     }
 }

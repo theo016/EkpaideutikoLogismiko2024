@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Intro-BasicCommands.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intro-BasicCommands.Designer.cs">
+      <DependentUpon>Intro-BasicCommands.cs</DependentUpon>
+    </Compile>
     <Compile Include="Intro-BasicSyntax.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +63,12 @@
     </Compile>
     <Compile Include="Intro-Installation&amp;Setup.Designer.cs">
       <DependentUpon>Intro-Installation&amp;Setup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Intro-Running&amp;Debugging.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intro-Running&amp;Debugging.Designer.cs">
+      <DependentUpon>Intro-Running&amp;Debugging.cs</DependentUpon>
     </Compile>
     <Compile Include="Introduction.cs">
       <SubType>Form</SubType>
@@ -84,11 +96,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Intro-BasicCommands.resx">
+      <DependentUpon>Intro-BasicCommands.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Intro-BasicSyntax.resx">
       <DependentUpon>Intro-BasicSyntax.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Intro-Installation&amp;Setup.resx">
       <DependentUpon>Intro-Installation&amp;Setup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intro-Running&amp;Debugging.resx">
+      <DependentUpon>Intro-Running&amp;Debugging.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Introduction.resx">
       <DependentUpon>Introduction.cs</DependentUpon>
