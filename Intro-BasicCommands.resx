@@ -117,4 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label9.Text" xml:space="preserve">
+    <value>The input command collects user input. Until a value has been
+input by the user, the program will not continue. The input
+function will translate whatever the user types into a string. You
+must explicitly convert an integer if you want to use it as input.</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>The round() function returns a floating point number that is a
+rounded version of the specified number, with the specified number
+of decimals. The default number of decimals is 0, meaning that the
+function will return the nearest integer.
+</value>
+  </data>
 </root>
