@@ -46,6 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConStr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConStr.Designer.cs">
+      <DependentUpon>ConStr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStr.Designer.cs">
+      <DependentUpon>DataStr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File.Designer.cs">
+      <DependentUpon>File.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Functions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Functions.Designer.cs">
+      <DependentUpon>Functions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Intro-BasicCommands.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +112,12 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="OOP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OOP.Designer.cs">
+      <DependentUpon>OOP.cs</DependentUpon>
+    </Compile>
     <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +126,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vars.Designer.cs">
+      <DependentUpon>Vars.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ConStr.resx">
+      <DependentUpon>ConStr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStr.resx">
+      <DependentUpon>DataStr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File.resx">
+      <DependentUpon>File.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Functions.resx">
+      <DependentUpon>Functions.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Intro-BasicCommands.resx">
       <DependentUpon>Intro-BasicCommands.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +165,9 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OOP.resx">
+      <DependentUpon>OOP.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,6 +180,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vars.resx">
+      <DependentUpon>Vars.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

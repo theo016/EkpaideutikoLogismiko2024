@@ -17,10 +17,12 @@ namespace EkpaideutikoLogismiko2024
             InitializeComponent();
         }
 
-        private void TextBox4_OnClick(object sender, EventArgs e)
+        private void buttonBack_Click(object sender, EventArgs e)
         {
-           
-
+            this.Hide();
+            var Login = new Login();
+            Login.Closed += (s, args) => this.Close();
+            Login.Show();
         }
     }
 }

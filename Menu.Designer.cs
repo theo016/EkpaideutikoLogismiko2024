@@ -30,17 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.labelOOP = new System.Windows.Forms.Label();
+            this.labelFileHandling = new System.Windows.Forms.Label();
+            this.labelDataStructures = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.buttonBack = new System.Windows.Forms.Button();
+            this.labelFunctions = new System.Windows.Forms.Label();
+            this.labelControlStructures = new System.Windows.Forms.Label();
+            this.labelVarsAndDataTypes = new System.Windows.Forms.Label();
+            this.Introduction = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -50,9 +51,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.labelOOP);
+            this.panel1.Controls.Add(this.labelFileHandling);
+            this.panel1.Controls.Add(this.labelDataStructures);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label4);
@@ -62,38 +63,41 @@
             this.panel1.Size = new System.Drawing.Size(346, 687);
             this.panel1.TabIndex = 0;
             // 
-            // label10
+            // labelOOP
             // 
-            this.label10.AutoSize = true;
-            this.label10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label10.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(3, 202);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(305, 25);
-            this.label10.TabIndex = 12;
-            this.label10.Text = "Object-Oriented Programming";
+            this.labelOOP.AutoSize = true;
+            this.labelOOP.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelOOP.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelOOP.Location = new System.Drawing.Point(19, 202);
+            this.labelOOP.Name = "labelOOP";
+            this.labelOOP.Size = new System.Drawing.Size(305, 25);
+            this.labelOOP.TabIndex = 12;
+            this.labelOOP.Text = "Object-Oriented Programming";
+            this.labelOOP.Click += new System.EventHandler(this.labelOOP_Click);
             // 
-            // label6
+            // labelFileHandling
             // 
-            this.label6.AutoSize = true;
-            this.label6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label6.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(3, 164);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(155, 25);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "File Handling";
+            this.labelFileHandling.AutoSize = true;
+            this.labelFileHandling.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelFileHandling.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFileHandling.Location = new System.Drawing.Point(19, 164);
+            this.labelFileHandling.Name = "labelFileHandling";
+            this.labelFileHandling.Size = new System.Drawing.Size(155, 25);
+            this.labelFileHandling.TabIndex = 11;
+            this.labelFileHandling.Text = "File Handling";
+            this.labelFileHandling.Click += new System.EventHandler(this.labelFileHandling_Click);
             // 
-            // label5
+            // labelDataStructures
             // 
-            this.label5.AutoSize = true;
-            this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label5.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 122);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(164, 25);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Data Structures";
+            this.labelDataStructures.AutoSize = true;
+            this.labelDataStructures.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelDataStructures.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDataStructures.Location = new System.Drawing.Point(19, 122);
+            this.labelDataStructures.Name = "labelDataStructures";
+            this.labelDataStructures.Size = new System.Drawing.Size(164, 25);
+            this.labelDataStructures.TabIndex = 10;
+            this.labelDataStructures.Text = "Data Structures";
+            this.labelDataStructures.Click += new System.EventHandler(this.labelDataStructures_Click);
             // 
             // pictureBox1
             // 
@@ -119,7 +123,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Modern No. 20", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(2, 51);
+            this.label4.Location = new System.Drawing.Point(18, 51);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(238, 36);
             this.label4.TabIndex = 5;
@@ -127,66 +131,86 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.label7);
+            this.panel2.BackColor = System.Drawing.Color.Lavender;
+            this.panel2.Controls.Add(this.buttonBack);
+            this.panel2.Controls.Add(this.labelFunctions);
+            this.panel2.Controls.Add(this.labelControlStructures);
+            this.panel2.Controls.Add(this.labelVarsAndDataTypes);
+            this.panel2.Controls.Add(this.Introduction);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(343, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(816, 687);
             this.panel2.TabIndex = 1;
             // 
-            // label3
+            // buttonBack
             // 
-            this.label3.AutoSize = true;
-            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label3.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(234, 244);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 25);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "Functions";
+            this.buttonBack.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.buttonBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.buttonBack.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonBack.ForeColor = System.Drawing.Color.Black;
+            this.buttonBack.Location = new System.Drawing.Point(707, 643);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(97, 32);
+            this.buttonBack.TabIndex = 41;
+            this.buttonBack.Text = "Log Out";
+            this.buttonBack.UseVisualStyleBackColor = false;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
-            // label9
+            // labelFunctions
             // 
-            this.label9.AutoSize = true;
-            this.label9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label9.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(234, 202);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(190, 25);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "Control Structures";
+            this.labelFunctions.AutoSize = true;
+            this.labelFunctions.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelFunctions.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFunctions.Location = new System.Drawing.Point(304, 244);
+            this.labelFunctions.Name = "labelFunctions";
+            this.labelFunctions.Size = new System.Drawing.Size(110, 25);
+            this.labelFunctions.TabIndex = 15;
+            this.labelFunctions.Text = "Functions";
+            this.labelFunctions.Click += new System.EventHandler(this.labelFunctions_Click);
             // 
-            // label8
+            // labelControlStructures
             // 
-            this.label8.AutoSize = true;
-            this.label8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label8.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(234, 164);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(263, 25);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "Variables and Data Types";
+            this.labelControlStructures.AutoSize = true;
+            this.labelControlStructures.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelControlStructures.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControlStructures.Location = new System.Drawing.Point(304, 202);
+            this.labelControlStructures.Name = "labelControlStructures";
+            this.labelControlStructures.Size = new System.Drawing.Size(190, 25);
+            this.labelControlStructures.TabIndex = 14;
+            this.labelControlStructures.Text = "Control Structures";
+            this.labelControlStructures.Click += new System.EventHandler(this.labelControlStructures_Click);
             // 
-            // label7
+            // labelVarsAndDataTypes
             // 
-            this.label7.AutoSize = true;
-            this.label7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label7.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(234, 122);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(136, 25);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Introduction";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.labelVarsAndDataTypes.AutoSize = true;
+            this.labelVarsAndDataTypes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelVarsAndDataTypes.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVarsAndDataTypes.Location = new System.Drawing.Point(304, 162);
+            this.labelVarsAndDataTypes.Name = "labelVarsAndDataTypes";
+            this.labelVarsAndDataTypes.Size = new System.Drawing.Size(263, 25);
+            this.labelVarsAndDataTypes.TabIndex = 13;
+            this.labelVarsAndDataTypes.Text = "Variables and Data Types";
+            this.labelVarsAndDataTypes.Click += new System.EventHandler(this.labelVarsAndDataTypes_Click);
+            // 
+            // Introduction
+            // 
+            this.Introduction.AutoSize = true;
+            this.Introduction.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Introduction.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Introduction.Location = new System.Drawing.Point(304, 122);
+            this.Introduction.Name = "Introduction";
+            this.Introduction.Size = new System.Drawing.Size(136, 25);
+            this.Introduction.TabIndex = 12;
+            this.Introduction.Text = "Introduction";
+            this.Introduction.Click += new System.EventHandler(this.Introduction_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Modern No. 20", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(233, 51);
+            this.label1.Location = new System.Drawing.Point(303, 51);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(178, 36);
             this.label1.TabIndex = 6;
@@ -201,6 +225,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Menu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -219,12 +244,13 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label labelFileHandling;
+        private System.Windows.Forms.Label labelDataStructures;
+        private System.Windows.Forms.Label labelVarsAndDataTypes;
+        private System.Windows.Forms.Label Introduction;
+        private System.Windows.Forms.Label labelControlStructures;
+        private System.Windows.Forms.Label labelFunctions;
+        private System.Windows.Forms.Label labelOOP;
+        private System.Windows.Forms.Button buttonBack;
     }
 }

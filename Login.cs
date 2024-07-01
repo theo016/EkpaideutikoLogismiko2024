@@ -17,38 +17,32 @@ namespace EkpaideutikoLogismiko2024
             InitializeComponent();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void buttonSubmit_Click(object sender, EventArgs e)
         {
-
-           
-
-
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            var SignUp = new SignUp();
-            SignUp.Closed += (s, args) => this.Close();
-            SignUp.Show();
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            var message = "Successful Login.";
-            MessageBox.Show(message);
+            MessageBox.Show("Successful Login!", "Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             this.Hide();
             var Menu = new Menu();
             Menu.Closed += (s, args) => this.Close();
             Menu.Show();
+        }
+
+        private void labelSignUp_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var SignUp = new SignUp();
+            SignUp.Closed += (s, args) => this.Close();
+            SignUp.Show();
+        }
+
+        private void labelSignUp_MouseEnter(object sender, EventArgs e)
+        {
+            labelSignUp.Font = new Font(labelSignUp.Font, FontStyle.Underline);
+        }
+
+        private void labelSignUp_MouseLeave(object sender, EventArgs e)
+        {
+            labelSignUp.Font = new Font(labelSignUp.Font, FontStyle.Regular);
         }
     }
 }

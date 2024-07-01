@@ -10,24 +10,19 @@ using System.Windows.Forms;
 
 namespace EkpaideutikoLogismiko2024
 {
-    public partial class Intro_Running_Debugging : Form
+    public partial class Vars : Form
     {
-        public Intro_Running_Debugging()
+        public Vars()
         {
             InitializeComponent();
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void buttonBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var Introduction = new Introduction();
-            Introduction.Closed += (s, args) => this.Close();
-            Introduction.Show();
+            var Menu = new Menu();
+            Menu.Closed += (s, args) => this.Close();
+            Menu.Show();
         }
     }
 }

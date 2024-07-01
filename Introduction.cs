@@ -17,12 +17,44 @@ namespace EkpaideutikoLogismiko2024
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void intro_and_setup_Click(object sender, EventArgs e)
         {
             this.Hide();
             var Intro_Installation_Setup = new Intro_Installation_Setup();
             Intro_Installation_Setup.Closed += (s, args) => this.Close();
             Intro_Installation_Setup.Show();
+        }
+
+        private void labelBasicSyntax_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var Intro_BasicSyntax = new Intro_BasicSyntax();
+            Intro_BasicSyntax.Closed += (s, args) => this.Close();
+            Intro_BasicSyntax.Show();
+        }
+
+        private void labelRunAndDeb_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var Intro_Running_Debugging = new Intro_Running_Debugging();
+            Intro_Running_Debugging.Closed += (s, args) => this.Close();
+            Intro_Running_Debugging.Show();
+        }
+
+        private void labelBasicComms_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var Intro_BasicCommands = new Intro_BasicCommands();
+            Intro_BasicCommands.Closed += (s, args) => this.Close();
+            Intro_BasicCommands.Show();
+        }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var Menu = new Menu();
+            Menu.Closed += (s, args) => this.Close();
+            Menu.Show();
         }
     }
 }
