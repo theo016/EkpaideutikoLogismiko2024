@@ -88,6 +88,30 @@
     <Compile Include="File.Designer.cs">
       <DependentUpon>File.cs</DependentUpon>
     </Compile>
+    <Compile Include="Func-AdvFunc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Func-AdvFunc.Designer.cs">
+      <DependentUpon>Func-AdvFunc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Func-FuncArgs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Func-FuncArgs.Designer.cs">
+      <DependentUpon>Func-FuncArgs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Func-FuncIntro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Func-FuncIntro.Designer.cs">
+      <DependentUpon>Func-FuncIntro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Func-KeyArgs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Func-KeyArgs.Designer.cs">
+      <DependentUpon>Func-KeyArgs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Functions.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -200,6 +224,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="File.resx">
       <DependentUpon>File.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Func-AdvFunc.resx">
+      <DependentUpon>Func-AdvFunc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Func-FuncArgs.resx">
+      <DependentUpon>Func-FuncArgs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Func-FuncIntro.resx">
+      <DependentUpon>Func-FuncIntro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Func-KeyArgs.resx">
+      <DependentUpon>Func-KeyArgs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Functions.resx">
       <DependentUpon>Functions.cs</DependentUpon>
