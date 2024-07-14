@@ -1,54 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\EkpaideutikoLogismiko2024\\",
+  "WorkspaceRootPath": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\intro-basicsyntax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:intro-basicsyntax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\constr-sequential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr-sequential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\intro-basiccommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:intro-basiccommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\datastr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:datastr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\intro-running\u0026debugging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:intro-running\u0026debugging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\intro-installation\u0026setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:intro-installation\u0026setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\introduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\constr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\introduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:introduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\introduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:introduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\oop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:oop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\func-advfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:func-advfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\func-funcargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:func-funcargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\func-funcintro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:func-funcintro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\intro-basicsyntax.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:intro-basicsyntax.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\func-keyargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:func-keyargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\intro-installation\u0026setup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:intro-installation\u0026setup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\constr-repetition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr-repetition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\constr-repetition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr-repetition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,8 +66,132 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Func-FuncIntro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-FuncIntro.cs",
+              "RelativeDocumentMoniker": "Func-FuncIntro.cs",
+              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-FuncIntro.cs [Design]",
+              "RelativeToolTip": "Func-FuncIntro.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T18:59:56.23Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Func-KeyArgs.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-KeyArgs.cs",
+              "RelativeDocumentMoniker": "Func-KeyArgs.cs",
+              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-KeyArgs.cs [Design]",
+              "RelativeToolTip": "Func-KeyArgs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T19:01:08.93Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Func-FuncArgs.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-FuncArgs.cs",
+              "RelativeDocumentMoniker": "Func-FuncArgs.cs",
+              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-FuncArgs.cs [Design]",
+              "RelativeToolTip": "Func-FuncArgs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T19:00:48.952Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Func-AdvFunc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-AdvFunc.cs",
+              "RelativeDocumentMoniker": "Func-AdvFunc.cs",
+              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-AdvFunc.cs [Design]",
+              "RelativeToolTip": "Func-AdvFunc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T19:01:36.376Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConStr-Sequential.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Sequential.cs",
+              "RelativeDocumentMoniker": "ConStr-Sequential.cs",
+              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Sequential.cs [Design]",
+              "RelativeToolTip": "ConStr-Sequential.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T21:35:29.759Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "File.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\File.cs",
+              "RelativeDocumentMoniker": "File.cs",
+              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\File.cs [Design]",
+              "RelativeToolTip": "File.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T21:27:25.756Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConStr.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr.cs",
+              "RelativeDocumentMoniker": "ConStr.cs",
+              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr.cs [Design]",
+              "RelativeToolTip": "ConStr.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T21:27:22.484Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataStr.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\DataStr.cs",
+              "RelativeDocumentMoniker": "DataStr.cs",
+              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\DataStr.cs [Design]",
+              "RelativeToolTip": "DataStr.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T21:27:20.984Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Menu.cs [Design]",
+              "RelativeToolTip": "Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T21:26:54.426Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OOP.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\OOP.cs",
+              "RelativeDocumentMoniker": "OOP.cs",
+              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\OOP.cs [Design]",
+              "RelativeToolTip": "OOP.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T21:26:52.686Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -74,72 +206,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Intro-BasicSyntax.cs [Design]",
-              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Intro-BasicSyntax.cs",
-              "RelativeDocumentMoniker": "Intro-BasicSyntax.cs",
-              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Intro-BasicSyntax.cs [Design]",
-              "RelativeToolTip": "Intro-BasicSyntax.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T18:42:08.479Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Intro-Installation\u0026Setup.cs [Design]",
-              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Intro-Installation\u0026Setup.cs",
-              "RelativeDocumentMoniker": "Intro-Installation\u0026Setup.cs",
-              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Intro-Installation\u0026Setup.cs [Design]",
-              "RelativeToolTip": "Intro-Installation\u0026Setup.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T10:54:28.029Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Intro-Running\u0026Debugging.cs [Design]",
-              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Intro-Running\u0026Debugging.cs",
-              "RelativeDocumentMoniker": "Intro-Running\u0026Debugging.cs",
-              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Intro-Running\u0026Debugging.cs [Design]",
-              "RelativeToolTip": "Intro-Running\u0026Debugging.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T08:12:55.027Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Intro-BasicCommands.cs [Design]",
-              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Intro-BasicCommands.cs",
-              "RelativeDocumentMoniker": "Intro-BasicCommands.cs",
-              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Intro-BasicCommands.cs [Design]",
-              "RelativeToolTip": "Intro-BasicCommands.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T08:14:03.482Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Introduction.cs",
-              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Introduction.cs",
-              "RelativeDocumentMoniker": "Introduction.cs",
-              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Introduction.cs",
-              "RelativeToolTip": "Introduction.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T08:08:25.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Introduction.cs [Design]",
-              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Introduction.cs",
+              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Introduction.cs",
               "RelativeDocumentMoniker": "Introduction.cs",
-              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Introduction.cs [Design]",
+              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Introduction.cs [Design]",
               "RelativeToolTip": "Introduction.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T10:48:54.09Z",
@@ -147,79 +218,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Menu.cs",
-              "RelativeDocumentMoniker": "Menu.cs",
-              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Menu.cs [Design]",
-              "RelativeToolTip": "Menu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T20:07:12.375Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Intro-Installation\u0026Setup.Designer.cs",
-              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Intro-Installation\u0026Setup.Designer.cs",
-              "RelativeDocumentMoniker": "Intro-Installation\u0026Setup.Designer.cs",
-              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Intro-Installation\u0026Setup.Designer.cs",
-              "RelativeToolTip": "Intro-Installation\u0026Setup.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ConStr-Repetition.cs",
+              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Repetition.cs",
+              "RelativeDocumentMoniker": "ConStr-Repetition.cs",
+              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Repetition.cs",
+              "RelativeToolTip": "ConStr-Repetition.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T18:08:56.17Z",
+              "WhenOpened": "2024-07-14T18:44:35.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAtwDAAAAAfAAAA",
+              "DocumentIndex": 12,
+              "Title": "ConStr-Repetition.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Repetition.cs",
+              "RelativeDocumentMoniker": "ConStr-Repetition.cs",
+              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Repetition.cs [Design]",
+              "RelativeToolTip": "ConStr-Repetition.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T07:47:35.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Menu.cs",
-              "RelativeDocumentMoniker": "Menu.cs",
-              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Menu.cs",
-              "RelativeToolTip": "Menu.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAvwCIAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T20:09:47.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Login.cs [Design]",
-              "RelativeToolTip": "Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T20:07:00.787Z",
+              "WhenOpened": "2024-07-14T18:19:58.088Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Intro-BasicSyntax.Designer.cs",
-              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Intro-BasicSyntax.Designer.cs",
-              "RelativeDocumentMoniker": "Intro-BasicSyntax.Designer.cs",
-              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Intro-BasicSyntax.Designer.cs",
-              "RelativeToolTip": "Intro-BasicSyntax.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 13,
+              "Title": "Functions.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Functions.cs",
+              "RelativeDocumentMoniker": "Functions.cs",
+              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Functions.cs [Design]",
+              "RelativeToolTip": "Functions.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T18:42:33.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T18:04:18.61Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
