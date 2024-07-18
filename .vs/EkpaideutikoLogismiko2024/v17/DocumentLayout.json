@@ -1,134 +1,178 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\",
+  "WorkspaceRootPath": "D:\\GitHub\\EkpaideutikoLogismiko2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\file-delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:file-delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\oop-bestpractices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:oop-bestpractices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\file-createwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:file-createwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\oop-basics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:oop-basics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\file-openread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:file-openread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\oop-advanced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:oop-advanced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\file-openread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:file-openread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\oop-basics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:oop-basics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\datastr-settypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:datastr-settypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\datastr-settypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:datastr-settypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\datastr-mappingtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:datastr-mappingtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\datastr-mappingtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:datastr-mappingtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\datastr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:datastr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\datastr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:datastr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\constr-selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr-selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\constr-repetition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr-repetition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\constr-repetition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr-repetition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\intro-basiccommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:intro-basiccommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\constr-selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr-selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\datastr-sequencetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:datastr-sequencetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\func-keyargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:func-keyargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\introduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:introduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\intro-basiccommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:intro-basiccommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\constr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\constr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\constr-sequential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr-sequential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|c:\\users\\aapos\\documents\\github\\ekpaideutikologismiko2024\\constr-constrinpython.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr-constrinpython.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\func-keyargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:func-keyargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\func-funcargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:func-funcargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\func-advfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:func-advfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\func-funcintro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\func-funcintro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:func-funcintro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\func-funcargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:func-funcargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\func-advfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:func-advfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\datastr-mappingtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:datastr-mappingtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\datastr-settypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:datastr-settypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\datastr-sequencetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:datastr-sequencetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\oop-basics.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:oop-basics.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\vars-varnamesandassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:vars-varnamesandassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\vars-datatypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:vars-datatypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\oop-bestpractices.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:oop-bestpractices.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\vars-variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:vars-variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\vars-globalvars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:vars-globalvars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\oop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:oop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\introduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:introduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\oop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:oop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|d:\\github\\ekpaideutikologismiko2024\\file-delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:file-delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\file-openread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:file-openread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\file-createwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:file-createwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\file-openread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:file-openread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\datastr-settypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:datastr-settypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\datastr-mappingtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:datastr-mappingtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\datastr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:datastr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\datastr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:datastr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\constr-selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr-selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\constr-repetition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr-repetition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\constr-repetition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr-repetition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\intro-basiccommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:intro-basiccommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\constr-selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr-selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\func-keyargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:func-keyargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\intro-basiccommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:intro-basiccommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\constr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\constr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\constr-sequential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr-sequential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\constr-constrinpython.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:constr-constrinpython.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|D:\\GitHub\\EkpaideutikoLogismiko2024\\func-keyargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F053C4C7-FE0A-45BF-BF56-D13D24228C05}|EkpaideutikoLogismiko2024.csproj|solutionrelative:func-keyargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,15 +182,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 4,
               "Title": "Func-FuncIntro.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-FuncIntro.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Func-FuncIntro.cs",
               "RelativeDocumentMoniker": "Func-FuncIntro.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-FuncIntro.cs [Design]",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Func-FuncIntro.cs [Design]",
               "RelativeToolTip": "Func-FuncIntro.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-14T18:59:56.23Z",
@@ -155,24 +199,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 42,
               "Title": "Func-KeyArgs.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-KeyArgs.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Func-KeyArgs.cs",
               "RelativeDocumentMoniker": "Func-KeyArgs.cs",
               "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-KeyArgs.cs [Design]",
-              "RelativeToolTip": "Func-KeyArgs.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-14T19:01:08.93Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 5,
               "Title": "Func-FuncArgs.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-FuncArgs.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Func-FuncArgs.cs",
               "RelativeDocumentMoniker": "Func-FuncArgs.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-FuncArgs.cs [Design]",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Func-FuncArgs.cs [Design]",
               "RelativeToolTip": "Func-FuncArgs.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-14T19:00:48.952Z",
@@ -181,64 +223,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 6,
               "Title": "Func-AdvFunc.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-AdvFunc.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Func-AdvFunc.cs",
               "RelativeDocumentMoniker": "Func-AdvFunc.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-AdvFunc.cs [Design]",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Func-AdvFunc.cs [Design]",
               "RelativeToolTip": "Func-AdvFunc.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-14T19:01:36.376Z",
               "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "File-OpenRead.cs",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\File-OpenRead.cs",
-              "RelativeDocumentMoniker": "File-OpenRead.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\File-OpenRead.cs",
-              "RelativeToolTip": "File-OpenRead.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAApwBUAAACDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T02:20:24.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "File-Delete.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\File-Delete.cs",
-              "RelativeDocumentMoniker": "File-Delete.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\File-Delete.cs [Design]",
-              "RelativeToolTip": "File-Delete.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T02:03:01.474Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "File-CreateWrite.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\File-CreateWrite.cs",
-              "RelativeDocumentMoniker": "File-CreateWrite.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\File-CreateWrite.cs [Design]",
-              "RelativeToolTip": "File-CreateWrite.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T02:02:43.959Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "File-OpenRead.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\File-OpenRead.cs",
-              "RelativeDocumentMoniker": "File-OpenRead.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\File-OpenRead.cs [Design]",
-              "RelativeToolTip": "File-OpenRead.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T02:02:09.904Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -255,11 +248,268 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataStr-SetTypes.cs",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-SetTypes.cs",
+              "DocumentIndex": 1,
+              "Title": "OOP-Basics.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\OOP-Basics.cs",
+              "RelativeDocumentMoniker": "OOP-Basics.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\OOP-Basics.cs [Design]",
+              "RelativeToolTip": "OOP-Basics.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:01:43.155Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OOP-Advanced.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\OOP-Advanced.cs",
+              "RelativeDocumentMoniker": "OOP-Advanced.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\OOP-Advanced.cs [Design]",
+              "RelativeToolTip": "OOP-Advanced.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:02:10.83Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OOP-BestPractices.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\OOP-BestPractices.cs",
+              "RelativeDocumentMoniker": "OOP-BestPractices.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\OOP-BestPractices.cs [Design]",
+              "RelativeToolTip": "OOP-BestPractices.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:03:06.792Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OOP-Basics.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\OOP-Basics.cs",
+              "RelativeDocumentMoniker": "OOP-Basics.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\OOP-Basics.cs",
+              "RelativeToolTip": "OOP-Basics.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAYwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:35:14.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataStr-MappingTypes.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-MappingTypes.cs",
+              "RelativeDocumentMoniker": "DataStr-MappingTypes.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-MappingTypes.cs [Design]",
+              "RelativeToolTip": "DataStr-MappingTypes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T23:09:04.199Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataStr-SetTypes.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-SetTypes.cs",
               "RelativeDocumentMoniker": "DataStr-SetTypes.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-SetTypes.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-SetTypes.cs [Design]",
+              "RelativeToolTip": "DataStr-SetTypes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T00:43:02.987Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataStr-SequenceTypes.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-SequenceTypes.cs",
+              "RelativeDocumentMoniker": "DataStr-SequenceTypes.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-SequenceTypes.cs [Design]",
+              "RelativeToolTip": "DataStr-SequenceTypes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T22:21:01.876Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OOP-Basics.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\OOP-Basics.Designer.cs",
+              "RelativeDocumentMoniker": "OOP-Basics.Designer.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\OOP-Basics.Designer.cs",
+              "RelativeToolTip": "OOP-Basics.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:25:41.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Vars-VarNamesAndAssignment.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Vars-VarNamesAndAssignment.cs",
+              "RelativeDocumentMoniker": "Vars-VarNamesAndAssignment.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Vars-VarNamesAndAssignment.cs [Design]",
+              "RelativeToolTip": "Vars-VarNamesAndAssignment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:08:53.933Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Vars-DataTypes.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Vars-DataTypes.cs",
+              "RelativeDocumentMoniker": "Vars-DataTypes.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Vars-DataTypes.cs [Design]",
+              "RelativeToolTip": "Vars-DataTypes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:05:12.223Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:22:27.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OOP-BestPractices.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\OOP-BestPractices.Designer.cs",
+              "RelativeDocumentMoniker": "OOP-BestPractices.Designer.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\OOP-BestPractices.Designer.cs",
+              "RelativeToolTip": "OOP-BestPractices.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:09:00.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Vars-GlobalVars.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Vars-GlobalVars.cs",
+              "RelativeDocumentMoniker": "Vars-GlobalVars.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Vars-GlobalVars.cs [Design]",
+              "RelativeToolTip": "Vars-GlobalVars.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:08:49.733Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Vars-Variables.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Vars-Variables.cs",
+              "RelativeDocumentMoniker": "Vars-Variables.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Vars-Variables.cs [Design]",
+              "RelativeToolTip": "Vars-Variables.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:08:26.321Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OOP.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\OOP.cs",
+              "RelativeDocumentMoniker": "OOP.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\OOP.cs [Design]",
+              "RelativeToolTip": "OOP.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T21:26:52.686Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Menu.cs [Design]",
+              "RelativeToolTip": "Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T21:26:54.426Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Introduction.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Introduction.cs",
+              "RelativeDocumentMoniker": "Introduction.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Introduction.cs [Design]",
+              "RelativeToolTip": "Introduction.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T10:48:54.09Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "File-Delete.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\File-Delete.cs",
+              "RelativeDocumentMoniker": "File-Delete.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\File-Delete.cs [Design]",
+              "RelativeToolTip": "File-Delete.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:03:01.474Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "File-OpenRead.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\File-OpenRead.cs",
+              "RelativeDocumentMoniker": "File-OpenRead.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\File-OpenRead.cs [Design]",
+              "RelativeToolTip": "File-OpenRead.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:02:09.904Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "File-CreateWrite.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\File-CreateWrite.cs",
+              "RelativeDocumentMoniker": "File-CreateWrite.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\File-CreateWrite.cs [Design]",
+              "RelativeToolTip": "File-CreateWrite.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:02:43.959Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "File-OpenRead.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\File-OpenRead.cs",
+              "RelativeDocumentMoniker": "File-OpenRead.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\File-OpenRead.cs",
+              "RelativeToolTip": "File-OpenRead.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAApwBUAAACDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:20:24.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DataStr-SetTypes.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-SetTypes.cs",
+              "RelativeDocumentMoniker": "DataStr-SetTypes.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-SetTypes.cs",
               "RelativeToolTip": "DataStr-SetTypes.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAASwDQAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -268,75 +518,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DataStr-SetTypes.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-SetTypes.cs",
-              "RelativeDocumentMoniker": "DataStr-SetTypes.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-SetTypes.cs [Design]",
-              "RelativeToolTip": "DataStr-SetTypes.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T00:43:02.987Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 33,
               "Title": "Functions.cs",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Functions.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Functions.cs",
               "RelativeDocumentMoniker": "Functions.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Functions.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Functions.cs",
               "RelativeToolTip": "Functions.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAApwB0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T00:10:14.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T00:10:14.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 27,
               "Title": "DataStr.cs",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\DataStr.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\DataStr.cs",
               "RelativeDocumentMoniker": "DataStr.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\DataStr.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\DataStr.cs",
               "RelativeToolTip": "DataStr.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAASwDIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T00:08:51.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T00:08:51.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 38,
               "Title": "ConStr.cs",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\ConStr.cs",
               "RelativeDocumentMoniker": "ConStr.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\ConStr.cs",
               "RelativeToolTip": "ConStr.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAApwB0AAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T00:08:17.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T00:08:17.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 34,
               "Title": "Intro-BasicCommands.cs",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Intro-BasicCommands.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Intro-BasicCommands.cs",
               "RelativeDocumentMoniker": "Intro-BasicCommands.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Intro-BasicCommands.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Intro-BasicCommands.cs",
               "RelativeToolTip": "Intro-BasicCommands.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAApwBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T00:07:40.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T00:07:40.012Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 25,
               "Title": "DataStr-MappingTypes.cs",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-MappingTypes.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-MappingTypes.cs",
               "RelativeDocumentMoniker": "DataStr-MappingTypes.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-MappingTypes.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-MappingTypes.cs",
               "RelativeToolTip": "DataStr-MappingTypes.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAgwBUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -345,209 +579,129 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 36,
               "Title": "Func-KeyArgs.cs",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-KeyArgs.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Func-KeyArgs.cs",
               "RelativeDocumentMoniker": "Func-KeyArgs.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Func-KeyArgs.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Func-KeyArgs.cs",
               "RelativeToolTip": "Func-KeyArgs.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAgwBsAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T23:39:51.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T23:39:51.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 35,
               "Title": "ConStr-Selection.cs",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Selection.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Selection.cs",
               "RelativeDocumentMoniker": "ConStr-Selection.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Selection.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Selection.cs",
               "RelativeToolTip": "ConStr-Selection.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwCIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T23:38:12.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T23:38:12.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DataStr-MappingTypes.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-MappingTypes.cs",
-              "RelativeDocumentMoniker": "DataStr-MappingTypes.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-MappingTypes.cs [Design]",
-              "RelativeToolTip": "DataStr-MappingTypes.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T23:09:04.199Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 37,
               "Title": "Intro-BasicCommands.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Intro-BasicCommands.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Intro-BasicCommands.cs",
               "RelativeDocumentMoniker": "Intro-BasicCommands.cs",
               "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Intro-BasicCommands.cs [Design]",
-              "RelativeToolTip": "Intro-BasicCommands.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T22:48:07.327Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-17T22:48:07.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 29,
               "Title": "ConStr-Selection.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Selection.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Selection.cs",
               "RelativeDocumentMoniker": "ConStr-Selection.cs",
               "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Selection.cs [Design]",
-              "RelativeToolTip": "ConStr-Selection.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T22:34:16.289Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-17T22:34:16.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 41,
               "Title": "ConStr-ConStrInPython.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-ConStrInPython.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-ConStrInPython.cs",
               "RelativeDocumentMoniker": "ConStr-ConStrInPython.cs",
               "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-ConStrInPython.cs [Design]",
-              "RelativeToolTip": "ConStr-ConStrInPython.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T22:27:53.509Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-17T22:27:53.509Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DataStr-SequenceTypes.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-SequenceTypes.cs",
-              "RelativeDocumentMoniker": "DataStr-SequenceTypes.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\DataStr-SequenceTypes.cs [Design]",
-              "RelativeToolTip": "DataStr-SequenceTypes.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T22:21:01.876Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 40,
               "Title": "ConStr-Sequential.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Sequential.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Sequential.cs",
               "RelativeDocumentMoniker": "ConStr-Sequential.cs",
               "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Sequential.cs [Design]",
-              "RelativeToolTip": "ConStr-Sequential.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T21:35:29.759Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-14T21:35:29.759Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 28,
               "Title": "File.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\File.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\File.cs",
               "RelativeDocumentMoniker": "File.cs",
               "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\File.cs [Design]",
-              "RelativeToolTip": "File.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T21:27:25.756Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-14T21:27:25.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 39,
               "Title": "ConStr.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\ConStr.cs",
               "RelativeDocumentMoniker": "ConStr.cs",
               "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr.cs [Design]",
-              "RelativeToolTip": "ConStr.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T21:27:22.484Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-14T21:27:22.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 26,
               "Title": "DataStr.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\DataStr.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\DataStr.cs",
               "RelativeDocumentMoniker": "DataStr.cs",
               "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\DataStr.cs [Design]",
-              "RelativeToolTip": "DataStr.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T21:27:20.984Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Menu.cs",
-              "RelativeDocumentMoniker": "Menu.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Menu.cs [Design]",
-              "RelativeToolTip": "Menu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T21:26:54.426Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-14T21:27:20.984Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "OOP.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\OOP.cs",
-              "RelativeDocumentMoniker": "OOP.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\OOP.cs [Design]",
-              "RelativeToolTip": "OOP.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T21:26:52.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Introduction.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Introduction.cs",
-              "RelativeDocumentMoniker": "Introduction.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Introduction.cs [Design]",
-              "RelativeToolTip": "Introduction.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T10:48:54.09Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "ConStr-Repetition.cs",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Repetition.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Repetition.cs",
               "RelativeDocumentMoniker": "ConStr-Repetition.cs",
-              "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Repetition.cs",
+              "ToolTip": "D:\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Repetition.cs",
               "RelativeToolTip": "ConStr-Repetition.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T18:44:35.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T18:44:35.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 30,
               "Title": "ConStr-Repetition.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Repetition.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Repetition.cs",
               "RelativeDocumentMoniker": "ConStr-Repetition.cs",
               "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\ConStr-Repetition.cs [Design]",
-              "RelativeToolTip": "ConStr-Repetition.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T18:19:58.088Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-14T18:19:58.088Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 32,
               "Title": "Functions.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Functions.cs",
+              "DocumentMoniker": "D:\\GitHub\\EkpaideutikoLogismiko2024\\Functions.cs",
               "RelativeDocumentMoniker": "Functions.cs",
               "ToolTip": "C:\\Users\\aapos\\Documents\\GitHub\\EkpaideutikoLogismiko2024\\Functions.cs [Design]",
-              "RelativeToolTip": "Functions.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T18:04:18.61Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-14T18:04:18.61Z"
             }
           ]
         }

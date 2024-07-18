@@ -117,23 +117,56 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label10.Text" xml:space="preserve">
-    <value>If you need a straightforward, procedural way
- to delete files and you're working in an environment 
-where simplicity and backward compatibility are priorities, 
-os.remove() or os.unlink() are good choices. </value>
+  <data name="label13.Text" xml:space="preserve">
+    <value>class Engine:
+    def start(self):
+        print("Engine started")
+
+class Car:
+    def __init__(self):
+        self.engine = Engine()  
+
+    def start(self):
+        self.engine.start()
+        print("Car started")
+
+my_car = Car()
+my_car.start()
+</value>
   </data>
-  <data name="label15.Text" xml:space="preserve">
-    <value>import os
-file_path = "path/to/your/file.txt"
-try:
-    os.remove(file_path)
-    print("File deleted successfully")
-except FileNotFoundError:
-    print("File not found")
-except PermissionError:
-    print("Permission denied")
-except Exception as e:
-    print(f"An error occurred: {e}")</value>
+  <data name="label12.Text" xml:space="preserve">
+    <value>from abc import ABC, abstractmethod
+
+class Animal(ABC):
+    @abstractmethod
+    def speak(self):
+        pass
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+dog = Dog()
+print(dog.speak())  </value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>class Animal:
+    def speak(self):
+        raise NotImplementedError
+("Subclass must implement abstract method")
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+
+def make_animal_speak(animal):
+    print(animal.speak())
+
+make_animal_speak(Dog())  
+make_animal_speak(Cat())  </value>
   </data>
 </root>

@@ -196,6 +196,24 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="OOP-Advanced.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OOP-Advanced.Designer.cs">
+      <DependentUpon>OOP-Advanced.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OOP-Basics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OOP-Basics.Designer.cs">
+      <DependentUpon>OOP-Basics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OOP-BestPractices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OOP-BestPractices.Designer.cs">
+      <DependentUpon>OOP-BestPractices.cs</DependentUpon>
+    </Compile>
     <Compile Include="OOP.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -314,6 +332,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OOP-Advanced.resx">
+      <DependentUpon>OOP-Advanced.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OOP-Basics.resx">
+      <DependentUpon>OOP-Basics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OOP-BestPractices.resx">
+      <DependentUpon>OOP-BestPractices.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OOP.resx">
       <DependentUpon>OOP.cs</DependentUpon>

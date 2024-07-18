@@ -117,23 +117,80 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label10.Text" xml:space="preserve">
-    <value>If you need a straightforward, procedural way
- to delete files and you're working in an environment 
-where simplicity and backward compatibility are priorities, 
-os.remove() or os.unlink() are good choices. </value>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Class: 
+A blueprint for creating objects
+ (a particular data structure),
+ containing methods (functions)
+ and attributes (variables).
+
+Object:
+ An instance of a class. 
+It is created using the class and
+ can use the methods and attributes
+ defined in the class.</value>
   </data>
-  <data name="label15.Text" xml:space="preserve">
-    <value>import os
-file_path = "path/to/your/file.txt"
-try:
-    os.remove(file_path)
-    print("File deleted successfully")
-except FileNotFoundError:
-    print("File not found")
-except PermissionError:
-    print("Permission denied")
-except Exception as e:
-    print(f"An error occurred: {e}")</value>
+  <data name="label8.Text" xml:space="preserve">
+    <value>class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def bark(self):
+        print(f"{self.name} is barking")
+
+my_dog = Dog("Rex", 5)
+
+
+print(my_dog.name)  
+my_dog.bark()  </value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Encapsulation refers to the bundling of data
+ (attributes) and methods that operate 
+on the data into a single unit, i.e., a class.
+ It also restricts direct access to some of 
+the object's components, which can help
+ prevent the accidental modification of data.</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>class Dog:
+    def __init__(self, name, age):
+        self._name = name  
+        self._age = age    
+
+    def get_age(self):
+        return self._age
+
+    def set_age(self, age):
+        if age &gt; 0:
+            self._age = age
+
+my_dog = Dog("Rex", 5)
+print(my_dog.get_age())  
+my_dog.set_age(6)
+print(my_dog.get_age())  </value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        pass  
+
+class Dog(Animal):
+    def speak(self):
+        return f"{self.name} says Woof!"
+
+class Cat(Animal):
+    def speak(self):
+        return f"{self.name} says Meow!"
+
+dog = Dog("Rex")
+cat = Cat("Whiskers")
+
+print(dog.speak())  
+print(cat.speak())  </value>
   </data>
 </root>
