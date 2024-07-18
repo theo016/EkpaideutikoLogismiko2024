@@ -76,11 +76,47 @@
     <Compile Include="ConStr.Designer.cs">
       <DependentUpon>ConStr.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataStr-MappingTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStr-MappingTypes.Designer.cs">
+      <DependentUpon>DataStr-MappingTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStr-SequenceTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStr-SequenceTypes.Designer.cs">
+      <DependentUpon>DataStr-SequenceTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStr-SetTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStr-SetTypes.Designer.cs">
+      <DependentUpon>DataStr-SetTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataStr.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DataStr.Designer.cs">
       <DependentUpon>DataStr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File-CreateWrite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File-CreateWrite.Designer.cs">
+      <DependentUpon>File-CreateWrite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File-Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File-Delete.Designer.cs">
+      <DependentUpon>File-Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File-OpenRead.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File-OpenRead.Designer.cs">
+      <DependentUpon>File-OpenRead.cs</DependentUpon>
     </Compile>
     <Compile Include="File.cs">
       <SubType>Form</SubType>
@@ -219,8 +255,26 @@
     <EmbeddedResource Include="ConStr.resx">
       <DependentUpon>ConStr.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DataStr-MappingTypes.resx">
+      <DependentUpon>DataStr-MappingTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStr-SequenceTypes.resx">
+      <DependentUpon>DataStr-SequenceTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStr-SetTypes.resx">
+      <DependentUpon>DataStr-SetTypes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DataStr.resx">
       <DependentUpon>DataStr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File-CreateWrite.resx">
+      <DependentUpon>File-CreateWrite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File-Delete.resx">
+      <DependentUpon>File-Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File-OpenRead.resx">
+      <DependentUpon>File-OpenRead.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="File.resx">
       <DependentUpon>File.cs</DependentUpon>

@@ -50,7 +50,7 @@
             this.labelFunctions.AutoSize = true;
             this.labelFunctions.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelFunctions.Font = new System.Drawing.Font("Modern No. 20", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFunctions.Location = new System.Drawing.Point(504, 9);
+            this.labelFunctions.Location = new System.Drawing.Point(478, 9);
             this.labelFunctions.Name = "labelFunctions";
             this.labelFunctions.Size = new System.Drawing.Size(157, 36);
             this.labelFunctions.TabIndex = 15;

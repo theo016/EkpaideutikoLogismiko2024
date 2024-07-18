@@ -34,9 +34,9 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.intro_and_setup = new System.Windows.Forms.Label();
-            this.labelBasicSyntax = new System.Windows.Forms.Label();
-            this.labelRunAndDeb = new System.Windows.Forms.Label();
+            this.labelSequence = new System.Windows.Forms.Label();
+            this.labelMapping = new System.Windows.Forms.Label();
+            this.labelSet = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -95,38 +95,41 @@
             this.pictureBox1.TabIndex = 49;
             this.pictureBox1.TabStop = false;
             // 
-            // intro_and_setup
+            // labelSequence
             // 
-            this.intro_and_setup.AutoSize = true;
-            this.intro_and_setup.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.intro_and_setup.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.intro_and_setup.Location = new System.Drawing.Point(488, 72);
-            this.intro_and_setup.Name = "intro_and_setup";
-            this.intro_and_setup.Size = new System.Drawing.Size(165, 25);
-            this.intro_and_setup.TabIndex = 47;
-            this.intro_and_setup.Text = "Sequence Types";
+            this.labelSequence.AutoSize = true;
+            this.labelSequence.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelSequence.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSequence.Location = new System.Drawing.Point(488, 72);
+            this.labelSequence.Name = "labelSequence";
+            this.labelSequence.Size = new System.Drawing.Size(165, 25);
+            this.labelSequence.TabIndex = 47;
+            this.labelSequence.Text = "Sequence Types";
+            this.labelSequence.Click += new System.EventHandler(this.intro_and_setup_Click);
             // 
-            // labelBasicSyntax
+            // labelMapping
             // 
-            this.labelBasicSyntax.AutoSize = true;
-            this.labelBasicSyntax.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.labelBasicSyntax.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBasicSyntax.Location = new System.Drawing.Point(488, 115);
-            this.labelBasicSyntax.Name = "labelBasicSyntax";
-            this.labelBasicSyntax.Size = new System.Drawing.Size(162, 25);
-            this.labelBasicSyntax.TabIndex = 46;
-            this.labelBasicSyntax.Text = "Mapping Types";
+            this.labelMapping.AutoSize = true;
+            this.labelMapping.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelMapping.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMapping.Location = new System.Drawing.Point(488, 115);
+            this.labelMapping.Name = "labelMapping";
+            this.labelMapping.Size = new System.Drawing.Size(162, 25);
+            this.labelMapping.TabIndex = 46;
+            this.labelMapping.Text = "Mapping Types";
+            this.labelMapping.Click += new System.EventHandler(this.labelBasicSyntax_Click);
             // 
-            // labelRunAndDeb
+            // labelSet
             // 
-            this.labelRunAndDeb.AutoSize = true;
-            this.labelRunAndDeb.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.labelRunAndDeb.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRunAndDeb.Location = new System.Drawing.Point(488, 163);
-            this.labelRunAndDeb.Name = "labelRunAndDeb";
-            this.labelRunAndDeb.Size = new System.Drawing.Size(105, 25);
-            this.labelRunAndDeb.TabIndex = 45;
-            this.labelRunAndDeb.Text = "Set Types";
+            this.labelSet.AutoSize = true;
+            this.labelSet.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelSet.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSet.Location = new System.Drawing.Point(488, 163);
+            this.labelSet.Name = "labelSet";
+            this.labelSet.Size = new System.Drawing.Size(105, 25);
+            this.labelSet.TabIndex = 45;
+            this.labelSet.Text = "Set Types";
+            this.labelSet.Click += new System.EventHandler(this.labelRunAndDeb_Click);
             // 
             // DataStr
             // 
@@ -137,9 +140,9 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.intro_and_setup);
-            this.Controls.Add(this.labelBasicSyntax);
-            this.Controls.Add(this.labelRunAndDeb);
+            this.Controls.Add(this.labelSequence);
+            this.Controls.Add(this.labelMapping);
+            this.Controls.Add(this.labelSet);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.labelDataStr);
             this.Name = "DataStr";
@@ -160,8 +163,8 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label intro_and_setup;
-        private System.Windows.Forms.Label labelBasicSyntax;
-        private System.Windows.Forms.Label labelRunAndDeb;
+        private System.Windows.Forms.Label labelSequence;
+        private System.Windows.Forms.Label labelMapping;
+        private System.Windows.Forms.Label labelSet;
     }
 }

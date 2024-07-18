@@ -24,5 +24,29 @@ namespace EkpaideutikoLogismiko2024
             Menu.Closed += (s, args) => this.Close();
             Menu.Show();
         }
+
+        private void intro_and_setup_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var DataStr_SequenceTypes = new DataStr_SequenceTypes();
+            DataStr_SequenceTypes.Closed += (s, args) => this.Close();
+            DataStr_SequenceTypes.Show();
+        }
+
+        private void labelBasicSyntax_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var DataStr_MappingTypes = new DataStr_MappingTypes();
+            DataStr_MappingTypes.Closed += (s, args) => this.Close();
+            DataStr_MappingTypes.Show();
+        }
+
+        private void labelRunAndDeb_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var DataStr_SetTypes = new DataStr_SetTypes();
+            DataStr_SetTypes.Closed += (s, args) => this.Close();
+            DataStr_SetTypes.Show();
+        }
     }
 }
