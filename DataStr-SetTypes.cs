@@ -54,5 +54,13 @@ namespace EkpaideutikoLogismiko2024
 
                , "Linked Hash Set", MessageBoxButtons.OK);
         }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var DataStr = new DataStr();
+            DataStr.Closed += (s, args) => this.Close();
+            DataStr.Show();
+        }
     }
 }

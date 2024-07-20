@@ -67,5 +67,13 @@ namespace EkpaideutikoLogismiko2024
                 "print(key, value)\r\n# Output:\r\n# name Yolanda\r\n# age 26\r\n\r\n"
                 , "Iterating Over Keys and Values", MessageBoxButtons.OK);
         }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var DataStr = new DataStr();
+            DataStr.Closed += (s, args) => this.Close();
+            DataStr.Show();
+        }
     }
 }

@@ -241,6 +241,7 @@
             this.buttonBack.TabIndex = 134;
             this.buttonBack.Text = "Back";
             this.buttonBack.UseVisualStyleBackColor = false;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
             // DataStr_SequenceTypes
             // 

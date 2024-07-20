@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OOP_Basics));
             this.label3 = new System.Windows.Forms.Label();
-            this.labeltype = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -40,16 +39,18 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.labeltype = new System.Windows.Forms.Label();
+            this.buttonBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label3
@@ -62,21 +63,11 @@
             this.label3.TabIndex = 20;
             this.label3.Text = "7.1 Basics of OOP";
             // 
-            // labeltype
-            // 
-            this.labeltype.AutoSize = true;
-            this.labeltype.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labeltype.Location = new System.Drawing.Point(886, 76);
-            this.labeltype.Name = "labeltype";
-            this.labeltype.Size = new System.Drawing.Size(112, 21);
-            this.labeltype.TabIndex = 62;
-            this.labeltype.Text = "Inheritance";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(421, 76);
+            this.label1.Location = new System.Drawing.Point(819, 76);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(135, 21);
             this.label1.TabIndex = 63;
@@ -162,30 +153,18 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Mongolian Baiti", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(374, 108);
+            this.label10.Location = new System.Drawing.Point(772, 108);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(321, 108);
             this.label10.TabIndex = 157;
             this.label10.Text = resources.GetString("label10.Text");
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Mongolian Baiti", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(829, 108);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(288, 108);
-            this.label11.TabIndex = 158;
-            this.label11.Text = "Inheritance is a way to form new\r\n classes using classes that have\r\n already been" +
-    " defined.\r\n It helps in reusing code and \r\nestablishing a hierarchical relations" +
-    "hip \r\nbetween classes.";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Blue;
-            this.label12.Location = new System.Drawing.Point(384, 245);
+            this.label12.Location = new System.Drawing.Point(782, 245);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(253, 320);
             this.label12.TabIndex = 159;
@@ -196,7 +175,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.Green;
-            this.label14.Location = new System.Drawing.Point(575, 512);
+            this.label14.Location = new System.Drawing.Point(978, 506);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(103, 20);
             this.label14.TabIndex = 161;
@@ -207,7 +186,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Green;
-            this.label15.Location = new System.Drawing.Point(575, 545);
+            this.label15.Location = new System.Drawing.Point(978, 546);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(103, 20);
             this.label15.TabIndex = 162;
@@ -218,7 +197,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Green;
-            this.label16.Location = new System.Drawing.Point(541, 306);
+            this.label16.Location = new System.Drawing.Point(939, 306);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(168, 20);
             this.label16.TabIndex = 163;
@@ -229,55 +208,89 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.Green;
-            this.label17.Location = new System.Drawing.Point(575, 286);
+            this.label17.Location = new System.Drawing.Point(973, 286);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(168, 20);
             this.label17.TabIndex = 164;
             this.label17.Text = " #Protected Attribute";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Blue;
-            this.label13.Location = new System.Drawing.Point(767, 245);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(308, 400);
-            this.label13.TabIndex = 165;
-            this.label13.Text = resources.GetString("label13.Text");
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.Green;
-            this.label18.Location = new System.Drawing.Point(906, 627);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(256, 20);
-            this.label18.TabIndex = 166;
-            this.label18.Text = "# Output: Whiskers says Meow!";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.Green;
-            this.label19.Location = new System.Drawing.Point(906, 607);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(211, 20);
-            this.label19.TabIndex = 167;
-            this.label19.Text = "# Output: Rex says Woof!";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.Green;
-            this.label20.Location = new System.Drawing.Point(775, 364);
+            this.label20.Location = new System.Drawing.Point(372, 362);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(223, 20);
-            this.label20.TabIndex = 168;
+            this.label20.TabIndex = 174;
             this.label20.Text = "# To be defined by subclass";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.Green;
+            this.label19.Location = new System.Drawing.Point(510, 605);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(211, 20);
+            this.label19.TabIndex = 173;
+            this.label19.Text = "# Output: Rex says Woof!";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.Green;
+            this.label18.Location = new System.Drawing.Point(500, 625);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(256, 20);
+            this.label18.TabIndex = 172;
+            this.label18.Text = "# Output: Whiskers says Meow!";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Blue;
+            this.label13.Location = new System.Drawing.Point(364, 243);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(308, 400);
+            this.label13.TabIndex = 171;
+            this.label13.Text = resources.GetString("label13.Text");
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Mongolian Baiti", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(426, 106);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(288, 108);
+            this.label11.TabIndex = 170;
+            this.label11.Text = "Inheritance is a way to form new\r\n classes using classes that have\r\n already been" +
+    " defined.\r\n It helps in reusing code and \r\nestablishing a hierarchical relations" +
+    "hip \r\nbetween classes.";
+            // 
+            // labeltype
+            // 
+            this.labeltype.AutoSize = true;
+            this.labeltype.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labeltype.Location = new System.Drawing.Point(483, 74);
+            this.labeltype.Name = "labeltype";
+            this.labeltype.Size = new System.Drawing.Size(112, 21);
+            this.labeltype.TabIndex = 169;
+            this.labeltype.Text = "Inheritance";
+            // 
+            // buttonBack
+            // 
+            this.buttonBack.BackColor = System.Drawing.Color.White;
+            this.buttonBack.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonBack.Location = new System.Drawing.Point(1060, 634);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(87, 41);
+            this.buttonBack.TabIndex = 175;
+            this.buttonBack.Text = "Back";
+            this.buttonBack.UseVisualStyleBackColor = false;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
             // OOP_Basics
             // 
@@ -285,16 +298,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1159, 687);
+            this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label13);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.labeltype);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label7);
@@ -304,7 +319,6 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.labeltype);
             this.Controls.Add(this.label3);
             this.Name = "OOP_Basics";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -318,7 +332,6 @@
         #endregion
 
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label labeltype;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
@@ -328,15 +341,17 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label labeltype;
+        private System.Windows.Forms.Button buttonBack;
     }
 }

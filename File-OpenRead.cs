@@ -21,5 +21,13 @@ namespace EkpaideutikoLogismiko2024
         {
             MessageBox.Show("f = open(\"demofile.txt\", \"r\")\r\nprint(f.read()) ", "Open and Read a file", MessageBoxButtons.OK);
         }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var File = new File();
+            File.Closed += (s, args) => this.Close();
+            File.Show();
+        }
     }
 }

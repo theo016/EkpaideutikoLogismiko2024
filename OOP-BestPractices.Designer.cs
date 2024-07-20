@@ -41,6 +41,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.buttonBack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -170,12 +171,25 @@
             this.pictureBox1.TabIndex = 164;
             this.pictureBox1.TabStop = false;
             // 
+            // buttonBack
+            // 
+            this.buttonBack.BackColor = System.Drawing.Color.White;
+            this.buttonBack.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonBack.Location = new System.Drawing.Point(1060, 634);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(87, 41);
+            this.buttonBack.TabIndex = 165;
+            this.buttonBack.Text = "Back";
+            this.buttonBack.UseVisualStyleBackColor = false;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
+            // 
             // OOP_BestPractices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1159, 687);
+            this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -211,5 +225,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button buttonBack;
     }
 }

@@ -24,5 +24,29 @@ namespace EkpaideutikoLogismiko2024
             Menu.Closed += (s, args) => this.Close();
             Menu.Show();
         }
+
+        private void open_read_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var File_OpenRead = new File_OpenRead();
+            File_OpenRead.Closed += (s, args) => this.Close();
+            File_OpenRead.Show();
+        }
+
+        private void labelCreate_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var File_CreateWrite = new File_CreateWrite();
+            File_CreateWrite.Closed += (s, args) => this.Close();
+            File_CreateWrite.Show();
+        }
+
+        private void labelDel_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var File_Delete = new File_Delete();
+            File_Delete.Closed += (s, args) => this.Close();
+            File_Delete.Show();
+        }
     }
 }

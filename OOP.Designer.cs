@@ -105,6 +105,7 @@
             this.basics.Size = new System.Drawing.Size(153, 25);
             this.basics.TabIndex = 47;
             this.basics.Text = "Basics of OOP";
+            this.basics.Click += new System.EventHandler(this.basics_Click);
             // 
             // advanced
             // 
@@ -116,6 +117,7 @@
             this.advanced.Size = new System.Drawing.Size(251, 25);
             this.advanced.TabIndex = 46;
             this.advanced.Text = "Advanced OOP Concepts";
+            this.advanced.Click += new System.EventHandler(this.advanced_Click);
             // 
             // bestPractices
             // 
@@ -127,6 +129,7 @@
             this.bestPractices.Size = new System.Drawing.Size(150, 25);
             this.bestPractices.TabIndex = 45;
             this.bestPractices.Text = "Best Practices";
+            this.bestPractices.Click += new System.EventHandler(this.bestPractices_Click);
             // 
             // OOP
             // 

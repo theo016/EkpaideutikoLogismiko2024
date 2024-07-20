@@ -105,6 +105,7 @@
             this.open_read.Size = new System.Drawing.Size(197, 25);
             this.open_read.TabIndex = 55;
             this.open_read.Text = "Open && Read Files";
+            this.open_read.Click += new System.EventHandler(this.open_read_Click);
             // 
             // labelCreate
             // 
@@ -116,6 +117,7 @@
             this.labelCreate.Size = new System.Drawing.Size(190, 25);
             this.labelCreate.TabIndex = 54;
             this.labelCreate.Text = "Create/Write Files";
+            this.labelCreate.Click += new System.EventHandler(this.labelCreate_Click);
             // 
             // labelDel
             // 
@@ -127,6 +129,7 @@
             this.labelDel.Size = new System.Drawing.Size(130, 25);
             this.labelDel.TabIndex = 53;
             this.labelDel.Text = "Delete Files";
+            this.labelDel.Click += new System.EventHandler(this.labelDel_Click);
             // 
             // File
             // 

@@ -49,6 +49,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.buttonBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelDataStr
@@ -264,12 +265,25 @@
     "\',\r\n and other general exceptions to ensure your\r\n program doesn\'t crash unexpec" +
     "tedly.";
             // 
+            // buttonBack
+            // 
+            this.buttonBack.BackColor = System.Drawing.Color.White;
+            this.buttonBack.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonBack.Location = new System.Drawing.Point(1060, 634);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(87, 41);
+            this.buttonBack.TabIndex = 197;
+            this.buttonBack.Text = "Back";
+            this.buttonBack.UseVisualStyleBackColor = false;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
+            // 
             // File_Delete
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1159, 687);
+            this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label17);
@@ -320,5 +334,6 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button buttonBack;
     }
 }

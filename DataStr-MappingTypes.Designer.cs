@@ -51,6 +51,7 @@
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
+            this.buttonBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelDataStr
@@ -307,12 +308,25 @@
     "ons of key-value pairs,\r\n where each key is unique and is used to store and retr" +
     "ieve values.";
             // 
+            // buttonBack
+            // 
+            this.buttonBack.BackColor = System.Drawing.Color.White;
+            this.buttonBack.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonBack.Location = new System.Drawing.Point(1060, 634);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(87, 41);
+            this.buttonBack.TabIndex = 147;
+            this.buttonBack.Text = "Back";
+            this.buttonBack.UseVisualStyleBackColor = false;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
+            // 
             // DataStr_MappingTypes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1159, 687);
+            this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
@@ -367,5 +381,6 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Button buttonBack;
     }
 }
