@@ -191,6 +191,7 @@
             this.Name = "Intro_Running_Debugging";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Integrated Development Environment (IDE)";
+            this.Load += new System.EventHandler(this.Intro_Running_Debugging_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

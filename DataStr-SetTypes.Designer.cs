@@ -233,6 +233,7 @@
             this.Name = "DataStr_SetTypes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DataStr_SetTypes";
+            this.Load += new System.EventHandler(this.DataStr_SetTypes_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

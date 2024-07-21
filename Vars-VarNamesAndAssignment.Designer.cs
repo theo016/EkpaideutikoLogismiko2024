@@ -324,6 +324,7 @@
             this.Name = "Vars_VarNamesAndAssignment";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Variable Names And Assignment";
+            this.Load += new System.EventHandler(this.Vars_VarNamesAndAssignment_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

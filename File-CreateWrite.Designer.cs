@@ -395,6 +395,7 @@
             this.Text = "f = open(\"demofile3.txt\", \"w\")\r\nf.write(\"Woops! I have deleted the content!\")\r\nf." +
     "close()\r\n\r\n#open and read the file after the overwriting:\r\nf = open(\"demofile3.t" +
     "xt\", \"r\")\r\nprint(f.read()) ";
+            this.Load += new System.EventHandler(this.File_CreateWrite_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

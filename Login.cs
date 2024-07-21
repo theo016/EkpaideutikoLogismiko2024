@@ -19,10 +19,7 @@ namespace EkpaideutikoLogismiko2024
 
         private void buttonSubmit_Click(object sender, EventArgs e)
         {
-            String username, password;
-
-            username = textBoxUsername.Text;
-            password = textBoxPassword.Text;
+            String username;
 
             try
             {
@@ -36,7 +33,6 @@ namespace EkpaideutikoLogismiko2024
                 if (dt.Rows.Count > 0)
                 {
                     username = textBoxUsername.Text;
-                    password = textBoxPassword.Text;
                 }
                 else
                 {
@@ -48,13 +44,14 @@ namespace EkpaideutikoLogismiko2024
                                 MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 this.Hide();
-                var Menu = new Menu();
+                var Menu = new Menu(username);
                 Menu.Closed += (s, args) => this.Close();
                 Menu.Show();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Login Unsuccessful! \r\n" + "Please try again.", "Status", 
+                MessageBox.Show("Login Unsuccessful! \r\n" + "Wrong Username or Password! \r\n" +
+                                "Please try again.", "Status", 
                                 MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 textBoxUsername.Clear();

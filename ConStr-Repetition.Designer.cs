@@ -263,6 +263,7 @@
             this.Name = "ConStr_Repetition";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Repetition";
+            this.Load += new System.EventHandler(this.ConStr_Repetition_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

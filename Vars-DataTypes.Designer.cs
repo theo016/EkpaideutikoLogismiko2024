@@ -658,6 +658,7 @@
             this.Name = "Vars_DataTypes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Data Types";
+            this.Load += new System.EventHandler(this.Vars_DataTypes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

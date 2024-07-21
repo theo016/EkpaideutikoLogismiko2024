@@ -205,6 +205,7 @@
             this.Name = "OOP_BestPractices";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OOP_BestPractices";
+            this.Load += new System.EventHandler(this.OOP_BestPractices_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -182,6 +182,7 @@
             this.Name = "Intro_BasicSyntax";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Basic Syntax";
+            this.Load += new System.EventHandler(this.Intro_BasicSyntax_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -12,15 +12,18 @@ namespace EkpaideutikoLogismiko2024
 {
     public partial class Introduction : Form
     {
-        public Introduction()
+        String username;
+
+        public Introduction(string username)
         {
             InitializeComponent();
+            this.username = username;
         }
 
         private void intro_and_setup_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var Intro_Installation_Setup = new Intro_Installation_Setup();
+            var Intro_Installation_Setup = new Intro_Installation_Setup(username);
             Intro_Installation_Setup.Closed += (s, args) => this.Close();
             Intro_Installation_Setup.Show();
         }
@@ -28,7 +31,7 @@ namespace EkpaideutikoLogismiko2024
         private void labelBasicSyntax_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var Intro_BasicSyntax = new Intro_BasicSyntax();
+            var Intro_BasicSyntax = new Intro_BasicSyntax(username);
             Intro_BasicSyntax.Closed += (s, args) => this.Close();
             Intro_BasicSyntax.Show();
         }
@@ -36,7 +39,7 @@ namespace EkpaideutikoLogismiko2024
         private void labelRunAndDeb_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var Intro_Running_Debugging = new Intro_Running_Debugging();
+            var Intro_Running_Debugging = new Intro_Running_Debugging(username);
             Intro_Running_Debugging.Closed += (s, args) => this.Close();
             Intro_Running_Debugging.Show();
         }
@@ -44,7 +47,7 @@ namespace EkpaideutikoLogismiko2024
         private void labelBasicComms_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var Intro_BasicCommands = new Intro_BasicCommands();
+            var Intro_BasicCommands = new Intro_BasicCommands(username);
             Intro_BasicCommands.Closed += (s, args) => this.Close();
             Intro_BasicCommands.Show();
         }
@@ -52,7 +55,7 @@ namespace EkpaideutikoLogismiko2024
         private void buttonBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var Menu = new Menu();
+            var Menu = new Menu(username);
             Menu.Closed += (s, args) => this.Close();
             Menu.Show();
         }

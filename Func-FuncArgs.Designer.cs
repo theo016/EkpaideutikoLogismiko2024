@@ -246,6 +246,7 @@
             this.Name = "Func_FuncArgs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Function Arguments";
+            this.Load += new System.EventHandler(this.Func_FuncArgs_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

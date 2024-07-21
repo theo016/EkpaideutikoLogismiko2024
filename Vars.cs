@@ -12,15 +12,18 @@ namespace EkpaideutikoLogismiko2024
 {
     public partial class Vars : Form
     {
-        public Vars()
+        String username;
+
+        public Vars(string username)
         {
             InitializeComponent();
+            this.username = username;
         }
 
         private void buttonBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var Menu = new Menu();
+            var Menu = new Menu(username);
             Menu.Closed += (s, args) => this.Close();
             Menu.Show();
         }
@@ -28,7 +31,7 @@ namespace EkpaideutikoLogismiko2024
         private void labelDataTypes_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var Vars_DataTypes = new Vars_DataTypes();
+            var Vars_DataTypes = new Vars_DataTypes(username);
             Vars_DataTypes.Closed += (s, args) => this.Close();
             Vars_DataTypes.Show();
         }
@@ -36,7 +39,7 @@ namespace EkpaideutikoLogismiko2024
         private void labelVariables_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var Vars_Variables = new Vars_Variables();
+            var Vars_Variables = new Vars_Variables(username);
             Vars_Variables.Closed += (s, args) => this.Close();
             Vars_Variables.Show();
         }
@@ -44,7 +47,7 @@ namespace EkpaideutikoLogismiko2024
         private void labelVarAndAss_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var Vars_VarNamesAndAssignment = new Vars_VarNamesAndAssignment();
+            var Vars_VarNamesAndAssignment = new Vars_VarNamesAndAssignment(username);
             Vars_VarNamesAndAssignment.Closed += (s, args) => this.Close();
             Vars_VarNamesAndAssignment.Show();
         }
@@ -52,7 +55,7 @@ namespace EkpaideutikoLogismiko2024
         private void labelGlobalVariables_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var Vars_GlobalVars = new Vars_GlobalVars();
+            var Vars_GlobalVars = new Vars_GlobalVars(username);
             Vars_GlobalVars.Closed += (s, args) => this.Close();
             Vars_GlobalVars.Show();
         }

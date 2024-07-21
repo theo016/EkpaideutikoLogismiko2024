@@ -283,6 +283,7 @@
             this.Name = "Vars_GlobalVars";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Global Variables";
+            this.Load += new System.EventHandler(this.Vars_GlobalVars_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

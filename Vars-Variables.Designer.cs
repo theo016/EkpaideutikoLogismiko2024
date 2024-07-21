@@ -270,6 +270,7 @@
             this.Name = "Vars_Variables";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Variables";
+            this.Load += new System.EventHandler(this.Vars_Variables_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

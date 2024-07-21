@@ -356,6 +356,7 @@
             this.Name = "Intro_BasicCommands";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Basic Commands";
+            this.Load += new System.EventHandler(this.Intro_BasicCommands_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

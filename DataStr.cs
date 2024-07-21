@@ -12,15 +12,18 @@ namespace EkpaideutikoLogismiko2024
 {
     public partial class DataStr : Form
     {
-        public DataStr()
+        String username;
+
+        public DataStr(string username)
         {
             InitializeComponent();
+            this.username = username;
         }
 
         private void buttonBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var Menu = new Menu();
+            var Menu = new Menu(username);
             Menu.Closed += (s, args) => this.Close();
             Menu.Show();
         }
@@ -28,7 +31,7 @@ namespace EkpaideutikoLogismiko2024
         private void intro_and_setup_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var DataStr_SequenceTypes = new DataStr_SequenceTypes();
+            var DataStr_SequenceTypes = new DataStr_SequenceTypes(username);
             DataStr_SequenceTypes.Closed += (s, args) => this.Close();
             DataStr_SequenceTypes.Show();
         }
@@ -36,7 +39,7 @@ namespace EkpaideutikoLogismiko2024
         private void labelBasicSyntax_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var DataStr_MappingTypes = new DataStr_MappingTypes();
+            var DataStr_MappingTypes = new DataStr_MappingTypes(username);
             DataStr_MappingTypes.Closed += (s, args) => this.Close();
             DataStr_MappingTypes.Show();
         }
@@ -44,7 +47,7 @@ namespace EkpaideutikoLogismiko2024
         private void labelRunAndDeb_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var DataStr_SetTypes = new DataStr_SetTypes();
+            var DataStr_SetTypes = new DataStr_SetTypes(username);
             DataStr_SetTypes.Closed += (s, args) => this.Close();
             DataStr_SetTypes.Show();
         }

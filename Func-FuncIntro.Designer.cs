@@ -167,6 +167,7 @@
             this.Name = "Func_FuncIntro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Introduction to Python Functions";
+            this.Load += new System.EventHandler(this.Func_FuncIntro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

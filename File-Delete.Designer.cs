@@ -307,6 +307,7 @@
             this.Name = "File_Delete";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "File_Delete";
+            this.Load += new System.EventHandler(this.File_Delete_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

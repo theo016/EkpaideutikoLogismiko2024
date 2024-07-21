@@ -141,6 +141,7 @@
             this.Name = "ConStr_Sequential";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sequential";
+            this.Load += new System.EventHandler(this.ConStr_Sequential_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

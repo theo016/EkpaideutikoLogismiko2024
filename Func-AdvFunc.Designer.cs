@@ -273,6 +273,7 @@
             this.Name = "Func_AdvFunc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Advanced Function Concepts";
+            this.Load += new System.EventHandler(this.Func_AdvFunc_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -235,6 +235,7 @@
             this.Name = "OOP_Advanced";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OOP_Advanced";
+            this.Load += new System.EventHandler(this.OOP_Advanced_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

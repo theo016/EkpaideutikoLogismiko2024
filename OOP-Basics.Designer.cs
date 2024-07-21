@@ -103,7 +103,6 @@
             this.label8.Size = new System.Drawing.Size(290, 260);
             this.label8.TabIndex = 152;
             this.label8.Text = resources.GetString("label8.Text");
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label4
             // 

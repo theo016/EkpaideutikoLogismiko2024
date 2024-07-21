@@ -262,6 +262,7 @@
             this.Name = "ConStr_Selection";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Selection";
+            this.Load += new System.EventHandler(this.ConStr_Selection_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

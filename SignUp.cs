@@ -49,7 +49,7 @@ namespace EkpaideutikoLogismiko2024
                     cmd.Parameters.AddWithValue("@Password", textBoxPassword.Text);
                     cmd.Parameters.AddWithValue("@Name", textBoxSurname.Text);
                     cmd.Parameters.AddWithValue("@Surname", textBoxFirstName.Text);
-                    cmd.ExecuteNonQueryAsync();
+                    cmd.ExecuteNonQuery();
 
                     MessageBox.Show("Sign Up Successful! \r\n" + "Click OK to continue.", "Status",
                                     MessageBoxButtons.OK, MessageBoxIcon.Information);

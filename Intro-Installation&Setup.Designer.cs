@@ -262,6 +262,7 @@
             this.Name = "Intro_Installation_Setup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Installation & Setup";
+            this.Load += new System.EventHandler(this.Intro_Installation_Setup_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

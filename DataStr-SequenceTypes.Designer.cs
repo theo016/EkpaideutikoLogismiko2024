@@ -270,6 +270,7 @@
             this.Name = "DataStr_SequenceTypes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DataStr_SequenceTypes";
+            this.Load += new System.EventHandler(this.DataStr_SequenceTypes_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -352,6 +352,7 @@
             this.Name = "DataStr_MappingTypes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DataStr_MappingTypes";
+            this.Load += new System.EventHandler(this.DataStr_MappingTypes_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

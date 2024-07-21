@@ -221,6 +221,7 @@
             this.Name = "Func_KeyArgs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Keyword Arguments and Default Values";
+            this.Load += new System.EventHandler(this.Func_KeyArgs_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

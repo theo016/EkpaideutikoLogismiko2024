@@ -102,6 +102,7 @@
             this.Name = "ConStr_ConStrInPython";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Control Structures In Python";
+            this.Load += new System.EventHandler(this.ConStr_ConStrInPython_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
