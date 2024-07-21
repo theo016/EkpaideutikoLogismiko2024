@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace EkpaideutikoLogismiko2024
 {
@@ -17,14 +13,59 @@ namespace EkpaideutikoLogismiko2024
             InitializeComponent();
         }
 
+
+        SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-9RR5NNA6\MSSQLSERVER01;Initial Catalog=Learn;Integrated Security=True;");
+
+
         private void buttonSubmit_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Successful Login!", "Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            String username, password;
 
-            this.Hide();
-            var Menu = new Menu();
-            Menu.Closed += (s, args) => this.Close();
-            Menu.Show();
+            username = textBoxUsername.Text;
+            password = textBoxPassword.Text;
+
+            try
+            {
+                String query = "SELECT * FROM Users WHERE " +
+                               "Username ='"+textBoxUsername.Text+ "' AND Password = '"+textBoxPassword.Text+"'";
+                SqlDataAdapter sda = new SqlDataAdapter(query, conn);
+
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+
+                if (dt.Rows.Count > 0)
+                {
+                    username = textBoxUsername.Text;
+                    password = textBoxPassword.Text;
+                }
+                else
+                {
+                    throw new Exception();
+                }
+
+                //succsesful login
+                MessageBox.Show("Login Successful! \r\n" + "Click OK to continue.", "Status",
+                                MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                this.Hide();
+                var Menu = new Menu();
+                Menu.Closed += (s, args) => this.Close();
+                Menu.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Login Unsuccessful! \r\n" + "Please try again.", "Status", 
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                textBoxUsername.Clear();
+                textBoxPassword.Clear();
+
+                textBoxUsername.Focus();
+            }
+            finally
+            {
+                conn.Close();
+            }
         }
 
         private void labelSignUp_Click(object sender, EventArgs e)
