@@ -30,12 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.DataStrQuiz = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.labelOOP = new System.Windows.Forms.Label();
             this.labelFileHandling = new System.Windows.Forms.Label();
             this.labelDataStructures = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.FuncQuiz = new System.Windows.Forms.Label();
+            this.ConStrQuiz = new System.Windows.Forms.Label();
+            this.VarsAndDataTypesQuiz = new System.Windows.Forms.Label();
+            this.IntroQuiz = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.buttonBack = new System.Windows.Forms.Button();
             this.labelFunctions = new System.Windows.Forms.Label();
@@ -43,14 +49,6 @@
             this.labelVarsAndDataTypes = new System.Windows.Forms.Label();
             this.Introduction = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.FuncQuiz = new System.Windows.Forms.Label();
-            this.ConStrQuiz = new System.Windows.Forms.Label();
-            this.VarsAndDataTypesQuiz = new System.Windows.Forms.Label();
-            this.IntroQuiz = new System.Windows.Forms.Label();
-            this.OOPQuiz = new System.Windows.Forms.Label();
-            this.FileQuiz = new System.Windows.Forms.Label();
-            this.DataStrQuiz = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -59,8 +57,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.panel1.Controls.Add(this.OOPQuiz);
-            this.panel1.Controls.Add(this.FileQuiz);
             this.panel1.Controls.Add(this.DataStrQuiz);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.labelOOP);
@@ -73,6 +69,27 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(346, 687);
             this.panel1.TabIndex = 0;
+            // 
+            // DataStrQuiz
+            // 
+            this.DataStrQuiz.AutoSize = true;
+            this.DataStrQuiz.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DataStrQuiz.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DataStrQuiz.Location = new System.Drawing.Point(19, 426);
+            this.DataStrQuiz.Name = "DataStrQuiz";
+            this.DataStrQuiz.Size = new System.Drawing.Size(218, 25);
+            this.DataStrQuiz.TabIndex = 14;
+            this.DataStrQuiz.Text = "Data Structures Quiz";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Modern No. 20", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(18, 355);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(268, 36);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Advanced Quizzes";
             // 
             // labelOOP
             // 
@@ -148,6 +165,50 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(816, 687);
             this.panel2.TabIndex = 1;
+            // 
+            // FuncQuiz
+            // 
+            this.FuncQuiz.AutoSize = true;
+            this.FuncQuiz.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FuncQuiz.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FuncQuiz.Location = new System.Drawing.Point(304, 548);
+            this.FuncQuiz.Name = "FuncQuiz";
+            this.FuncQuiz.Size = new System.Drawing.Size(164, 25);
+            this.FuncQuiz.TabIndex = 46;
+            this.FuncQuiz.Text = "Functions Quiz";
+            // 
+            // ConStrQuiz
+            // 
+            this.ConStrQuiz.AutoSize = true;
+            this.ConStrQuiz.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ConStrQuiz.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConStrQuiz.Location = new System.Drawing.Point(304, 506);
+            this.ConStrQuiz.Name = "ConStrQuiz";
+            this.ConStrQuiz.Size = new System.Drawing.Size(244, 25);
+            this.ConStrQuiz.TabIndex = 45;
+            this.ConStrQuiz.Text = "Control Structures Quiz";
+            // 
+            // VarsAndDataTypesQuiz
+            // 
+            this.VarsAndDataTypesQuiz.AutoSize = true;
+            this.VarsAndDataTypesQuiz.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.VarsAndDataTypesQuiz.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VarsAndDataTypesQuiz.Location = new System.Drawing.Point(304, 466);
+            this.VarsAndDataTypesQuiz.Name = "VarsAndDataTypesQuiz";
+            this.VarsAndDataTypesQuiz.Size = new System.Drawing.Size(317, 25);
+            this.VarsAndDataTypesQuiz.TabIndex = 44;
+            this.VarsAndDataTypesQuiz.Text = "Variables and Data Types Quiz";
+            // 
+            // IntroQuiz
+            // 
+            this.IntroQuiz.AutoSize = true;
+            this.IntroQuiz.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.IntroQuiz.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IntroQuiz.Location = new System.Drawing.Point(304, 426);
+            this.IntroQuiz.Name = "IntroQuiz";
+            this.IntroQuiz.Size = new System.Drawing.Size(190, 25);
+            this.IntroQuiz.TabIndex = 43;
+            this.IntroQuiz.Text = "Introduction Quiz";
             // 
             // label3
             // 
@@ -232,93 +293,6 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Main Units";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Modern No. 20", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(18, 355);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(268, 36);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Advanced Quizzes";
-            // 
-            // FuncQuiz
-            // 
-            this.FuncQuiz.AutoSize = true;
-            this.FuncQuiz.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.FuncQuiz.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FuncQuiz.Location = new System.Drawing.Point(304, 548);
-            this.FuncQuiz.Name = "FuncQuiz";
-            this.FuncQuiz.Size = new System.Drawing.Size(164, 25);
-            this.FuncQuiz.TabIndex = 46;
-            this.FuncQuiz.Text = "Functions Quiz";
-            // 
-            // ConStrQuiz
-            // 
-            this.ConStrQuiz.AutoSize = true;
-            this.ConStrQuiz.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ConStrQuiz.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ConStrQuiz.Location = new System.Drawing.Point(304, 506);
-            this.ConStrQuiz.Name = "ConStrQuiz";
-            this.ConStrQuiz.Size = new System.Drawing.Size(244, 25);
-            this.ConStrQuiz.TabIndex = 45;
-            this.ConStrQuiz.Text = "Control Structures Quiz";
-            // 
-            // VarsAndDataTypesQuiz
-            // 
-            this.VarsAndDataTypesQuiz.AutoSize = true;
-            this.VarsAndDataTypesQuiz.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.VarsAndDataTypesQuiz.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.VarsAndDataTypesQuiz.Location = new System.Drawing.Point(304, 466);
-            this.VarsAndDataTypesQuiz.Name = "VarsAndDataTypesQuiz";
-            this.VarsAndDataTypesQuiz.Size = new System.Drawing.Size(317, 25);
-            this.VarsAndDataTypesQuiz.TabIndex = 44;
-            this.VarsAndDataTypesQuiz.Text = "Variables and Data Types Quiz";
-            // 
-            // IntroQuiz
-            // 
-            this.IntroQuiz.AutoSize = true;
-            this.IntroQuiz.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.IntroQuiz.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IntroQuiz.Location = new System.Drawing.Point(304, 426);
-            this.IntroQuiz.Name = "IntroQuiz";
-            this.IntroQuiz.Size = new System.Drawing.Size(190, 25);
-            this.IntroQuiz.TabIndex = 43;
-            this.IntroQuiz.Text = "Introduction Quiz";
-            // 
-            // OOPQuiz
-            // 
-            this.OOPQuiz.AutoSize = true;
-            this.OOPQuiz.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.OOPQuiz.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OOPQuiz.Location = new System.Drawing.Point(19, 506);
-            this.OOPQuiz.Name = "OOPQuiz";
-            this.OOPQuiz.Size = new System.Drawing.Size(112, 25);
-            this.OOPQuiz.TabIndex = 16;
-            this.OOPQuiz.Text = "OOP Quiz";
-            // 
-            // FileQuiz
-            // 
-            this.FileQuiz.AutoSize = true;
-            this.FileQuiz.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.FileQuiz.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FileQuiz.Location = new System.Drawing.Point(19, 468);
-            this.FileQuiz.Name = "FileQuiz";
-            this.FileQuiz.Size = new System.Drawing.Size(209, 25);
-            this.FileQuiz.TabIndex = 15;
-            this.FileQuiz.Text = "File Handling Quiz";
-            // 
-            // DataStrQuiz
-            // 
-            this.DataStrQuiz.AutoSize = true;
-            this.DataStrQuiz.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DataStrQuiz.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DataStrQuiz.Location = new System.Drawing.Point(19, 426);
-            this.DataStrQuiz.Name = "DataStrQuiz";
-            this.DataStrQuiz.Size = new System.Drawing.Size(218, 25);
-            this.DataStrQuiz.TabIndex = 14;
-            this.DataStrQuiz.Text = "Data Structures Quiz";
-            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -360,8 +334,6 @@
         private System.Windows.Forms.Label ConStrQuiz;
         private System.Windows.Forms.Label VarsAndDataTypesQuiz;
         private System.Windows.Forms.Label IntroQuiz;
-        private System.Windows.Forms.Label OOPQuiz;
-        private System.Windows.Forms.Label FileQuiz;
         private System.Windows.Forms.Label DataStrQuiz;
     }
 }
