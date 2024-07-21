@@ -77,7 +77,7 @@
             this.OOPQuiz.AutoSize = true;
             this.OOPQuiz.Cursor = System.Windows.Forms.Cursors.Hand;
             this.OOPQuiz.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OOPQuiz.Location = new System.Drawing.Point(19, 506);
+            this.OOPQuiz.Location = new System.Drawing.Point(19, 464);
             this.OOPQuiz.Name = "OOPQuiz";
             this.OOPQuiz.Size = new System.Drawing.Size(112, 25);
             this.OOPQuiz.TabIndex = 16;
@@ -88,7 +88,7 @@
             this.FileQuiz.AutoSize = true;
             this.FileQuiz.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FileQuiz.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FileQuiz.Location = new System.Drawing.Point(19, 468);
+            this.FileQuiz.Location = new System.Drawing.Point(19, 426);
             this.FileQuiz.Name = "FileQuiz";
             this.FileQuiz.Size = new System.Drawing.Size(209, 25);
             this.FileQuiz.TabIndex = 15;
