@@ -121,5 +121,15 @@ namespace EkpaideutikoLogismiko2024
 
             label7.Text = username;
         }
+
+        private void IntroQuiz_Click(object sender, EventArgs e)
+        {
+
+            this.Hide();
+            var Quiz = new Quiz(username);
+            Quiz.Closed += (s, args) => this.Close();
+            Quiz.Show();
+
+        }
     }
 }

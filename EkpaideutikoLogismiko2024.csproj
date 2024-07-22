@@ -184,6 +184,16 @@
     <Compile Include="Introduction.Designer.cs">
       <DependentUpon>Introduction.cs</DependentUpon>
     </Compile>
+    <Compile Include="LearnDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LearnDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LearnDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LearnDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -219,6 +229,12 @@
     </Compile>
     <Compile Include="OOP.Designer.cs">
       <DependentUpon>OOP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quiz.Designer.cs">
+      <DependentUpon>Quiz.cs</DependentUpon>
     </Compile>
     <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
@@ -345,6 +361,9 @@
     <EmbeddedResource Include="OOP.resx">
       <DependentUpon>OOP.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Quiz.resx">
+      <DependentUpon>Quiz.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
@@ -372,6 +391,28 @@
     <EmbeddedResource Include="Vars.resx">
       <DependentUpon>Vars.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="LearnDataSet.xsc">
+      <DependentUpon>LearnDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LearnDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LearnDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LearnDataSet.xss">
+      <DependentUpon>LearnDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LearnDataSet1.xsc">
+      <DependentUpon>LearnDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="LearnDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LearnDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LearnDataSet1.xss">
+      <DependentUpon>LearnDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -256,6 +256,7 @@
             this.IntroQuiz.Size = new System.Drawing.Size(190, 25);
             this.IntroQuiz.TabIndex = 43;
             this.IntroQuiz.Text = "Introduction Quiz";
+            this.IntroQuiz.Click += new System.EventHandler(this.IntroQuiz_Click);
             // 
             // VarsAndDataTypesQuiz
             // 

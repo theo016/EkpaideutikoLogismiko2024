@@ -106,3 +106,10 @@ C:\Users\Empedus\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\Ekpaideuti
 C:\Users\Empedus\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.Vars_GlobalVars.resources
 C:\Users\Empedus\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.Vars_Variables.resources
 C:\Users\Empedus\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.Vars_VarNamesAndAssignment.resources
+C:\Users\aapos\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.File_CreateWrite.resources
+C:\Users\aapos\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.File_Delete.resources
+C:\Users\aapos\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.File_OpenRead.resources
+C:\Users\aapos\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.OOP_Advanced.resources
+C:\Users\aapos\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.OOP_Basics.resources
+C:\Users\aapos\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.OOP_BestPractices.resources
+C:\Users\aapos\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.Quiz.resources
