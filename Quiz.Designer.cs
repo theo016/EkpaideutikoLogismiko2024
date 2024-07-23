@@ -33,7 +33,6 @@
             this.buttonAnswer1 = new System.Windows.Forms.Button();
             this.buttonAnswer2 = new System.Windows.Forms.Button();
             this.buttonAnswer3 = new System.Windows.Forms.Button();
-            this.giannis = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // quizUnit
@@ -86,22 +85,12 @@
             this.buttonAnswer3.UseVisualStyleBackColor = true;
             this.buttonAnswer3.Click += new System.EventHandler(this.buttonAnswer3_Click);
             // 
-            // giannis
-            // 
-            this.giannis.AutoSize = true;
-            this.giannis.Location = new System.Drawing.Point(61, 618);
-            this.giannis.Name = "giannis";
-            this.giannis.Size = new System.Drawing.Size(35, 13);
-            this.giannis.TabIndex = 5;
-            this.giannis.Text = "label1";
-            // 
             // Quiz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1159, 687);
-            this.Controls.Add(this.giannis);
             this.Controls.Add(this.buttonAnswer3);
             this.Controls.Add(this.buttonAnswer2);
             this.Controls.Add(this.buttonAnswer1);
@@ -123,6 +112,5 @@
         private System.Windows.Forms.Button buttonAnswer1;
         private System.Windows.Forms.Button buttonAnswer2;
         private System.Windows.Forms.Button buttonAnswer3;
-        private System.Windows.Forms.Label giannis;
     }
 }
