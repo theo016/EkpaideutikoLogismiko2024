@@ -40,7 +40,7 @@
             // 
             this.quizUnit.AutoSize = true;
             this.quizUnit.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quizUnit.Location = new System.Drawing.Point(506, 9);
+            this.quizUnit.Location = new System.Drawing.Point(481, 9);
             this.quizUnit.Name = "quizUnit";
             this.quizUnit.Size = new System.Drawing.Size(83, 34);
             this.quizUnit.TabIndex = 0;

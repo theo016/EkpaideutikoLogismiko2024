@@ -17,6 +17,7 @@ namespace EkpaideutikoLogismiko2024
     {
         String username;
         int currentUnitID;
+        int x = 5;
 
         public Quiz(string username, int currentUnitID)
         {
@@ -52,6 +53,9 @@ namespace EkpaideutikoLogismiko2024
                 case 4:
                     currentQuestionId = 31;
                     break;
+                case 10:
+                    currentQuestionId = 41;
+                    break;
             }
 
             LoadQuestion(currentQuestionId);
@@ -59,44 +63,90 @@ namespace EkpaideutikoLogismiko2024
 
         private void LoadQuestion(int questionId)
         {
-            string queryQuestions = "SELECT QuestionText,QuestionID,UnitID FROM Questions " +
-                                    "WHERE QuestionID = @QuestionID AND UnitID='"+currentUnitID+"'";
 
-            SqlCommand command = new SqlCommand(queryQuestions, conn);
-            command.Parameters.AddWithValue("@QuestionID", questionId);
-            command.Parameters.AddWithValue("@UnitId", quizUnit.Text);
-
-            try
+            if (currentUnitID != 10)
             {
-                conn.Open();
-                SqlDataReader reader = command.ExecuteReader();
+                string queryQuestions = "SELECT QuestionText,QuestionID,UnitID FROM Questions " +
+                                        "WHERE QuestionID = @QuestionID AND UnitID='" + currentUnitID + "'";
 
-                if (reader.Read())
+                SqlCommand command = new SqlCommand(queryQuestions, conn);
+                command.Parameters.AddWithValue("@QuestionID", questionId);
+                command.Parameters.AddWithValue("@UnitId", quizUnit.Text);
+
+                try
                 {
-                    // Display the question
-                    quizUnit.Text = "Unit " + reader["UnitId"];
-                    questionLabel.Text = reader["QuestionText"].ToString();
+                    conn.Open();
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        // Display the question
+                        quizUnit.Text = "Unit " + reader["UnitId"];
+                        questionLabel.Text = reader["QuestionText"].ToString();
+                    }
+                    else
+                    {
+                        MessageBox.Show("No more questions.");
+
+                        conn.Close();
+
+                        this.Hide();
+                        var Menu = new Menu(username);
+                        Menu.Closed += (s, args) => this.Close();
+                        Menu.Show();
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    MessageBox.Show("No more questions.");
-
+                    MessageBox.Show($"Error retrieving question: {ex.Message}");
+                }
+                finally
+                {
                     conn.Close();
-
-                    this.Hide();
-                    var Menu = new Menu(username);
-                    Menu.Closed += (s, args) => this.Close();
-                    Menu.Show();
                 }
             }
-            catch (Exception ex)
+            else if(currentUnitID == 10)
             {
-                MessageBox.Show($"Error retrieving question: {ex.Message}");
+                string q = "SELECT QuestionText, QuestionID, UnitID FROM Questions " +
+                                        "WHERE QuestionID = @QuestionID AND UnitID IN (5, 6, 7)";
+
+                SqlCommand cmd = new SqlCommand(q, conn);
+                cmd.Parameters.AddWithValue("@QuestionID", questionId);
+
+                try
+                {
+                    conn.Open();
+                    SqlDataReader r = cmd.ExecuteReader();
+
+                    if (r.Read())
+                    {
+                        quizUnit.Text = "Advanced Units (Unit " + r["UnitID"] + ")";
+                        questionLabel.Text = r["QuestionText"].ToString();
+                    }
+                    else
+                    {
+                        MessageBox.Show("No more questions.");
+
+                        conn.Close();
+
+                        this.Hide();
+                        var Menu = new Menu(username);
+                        Menu.Closed += (s, args) => this.Close();
+                        Menu.Show();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error retrieving question: {ex.Message}");
+                }
+                finally
+                {
+                    conn.Close();
+                }
+
             }
-            finally
-            {
-                conn.Close();
-            }
+
+            
 
 
             string queryAnswers = "SELECT AnswerID,AnswerText FROM QuestionsAnswers WHERE QuestionID = @QuestionID";
@@ -141,16 +191,19 @@ namespace EkpaideutikoLogismiko2024
 
         private void buttonAnswer1_Click(object sender, EventArgs e)
         {
+            answer(1);
             ShowNextQuestion();
         }
 
         private void buttonAnswer2_Click(object sender, EventArgs e)
         {
+            answer(2);
             ShowNextQuestion();
         }
 
         private void buttonAnswer3_Click(object sender, EventArgs e)
         {
+            answer(3);
             ShowNextQuestion();
         }
 
@@ -158,6 +211,31 @@ namespace EkpaideutikoLogismiko2024
         {
             currentQuestionId++;
             LoadQuestion(currentQuestionId);
+        }
+
+        private void answer(int ans)
+        {
+            try
+            {
+                conn.Open();
+                String insertQuery = "INSERT INTO UsersAnswers VALUES (@QuestionID, @QuizID, @Datetime, @Username, @AnswerID)";
+                SqlCommand cmd = new SqlCommand(insertQuery, conn);
+
+                cmd.Parameters.AddWithValue("@QuestionID", currentQuestionId);
+                cmd.Parameters.AddWithValue("@QuizID", currentUnitID);
+                cmd.Parameters.AddWithValue("@Datetime", DateTime.Now);
+                cmd.Parameters.AddWithValue("@Username", username);
+                cmd.Parameters.AddWithValue("AnswerID", ans);
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                conn.Close();
+            }
         }
     }
 }
