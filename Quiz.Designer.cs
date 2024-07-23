@@ -48,10 +48,10 @@
             // questionLabel
             // 
             this.questionLabel.AutoSize = true;
-            this.questionLabel.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.questionLabel.Location = new System.Drawing.Point(56, 199);
+            this.questionLabel.Font = new System.Drawing.Font("Modern No. 20", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.questionLabel.Location = new System.Drawing.Point(12, 200);
             this.questionLabel.Name = "questionLabel";
-            this.questionLabel.Size = new System.Drawing.Size(71, 25);
+            this.questionLabel.Size = new System.Drawing.Size(67, 25);
             this.questionLabel.TabIndex = 1;
             this.questionLabel.Text = "label1";
             // 
