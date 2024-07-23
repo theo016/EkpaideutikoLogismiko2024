@@ -15,210 +15,137 @@ namespace EkpaideutikoLogismiko2024
     public partial class Quiz : Form
     {
         String username;
+        private int currentUnitID;
 
-        public Quiz(string username)
+        public Quiz(string username, int currentUnitID)
         {
-
             InitializeComponent();
             this.username = username;
-            
+            this.currentUnitID = currentUnitID;
         }
-        public int questioncounter = 1;
-        SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-9RR5NNA6\MSSQLSERVER01;Initial Catalog=Learn;Integrated Security=True;");
 
         private void Quiz_Load(object sender, EventArgs e)
         {
-            
-            try
-            {
-                conn.Open();
-                SqlCommand cmd = new SqlCommand("SELECT QuestionText,QuestionId,UnitId FROM Questions ", conn);
-
-
-                cmd.Parameters.AddWithValue("QuestionText", questionLabel.Text);
-                cmd.Parameters.AddWithValue( "UnitId", quizUnit.Text);
-
-
-
-                SqlDataReader reader1;
-
-                reader1 = cmd.ExecuteReader();
-                
-                if (reader1.Read())
-                {
-                    quizUnit.Text = "Unit " + reader1["UnitId"];
-                    questionLabel.Text = reader1["QuestionText"].ToString();
-
-                    questioncounter++;
-
-
-                }
-                else
-                {
-                    MessageBox.Show("Den antexw allo");
-                }
-            }
-
-            catch (Exception ex)
-            {
-               
-                questionLabel.Text = ex.Message;
-
-
-            }
-            finally
-            {
-                conn.Close();
-            }
-
-            try
-            {
-
-                conn.Open();
-                SqlCommand cmd2 = new SqlCommand("Select QuestionId,AnswerId,AnswerText from QuestionsAnswers ", conn);
-
-                cmd2.Parameters.AddWithValue("AnswerId", giannis.Text);
-
-                SqlDataReader reader2;
-
-                reader2 = cmd2.ExecuteReader();
-
-                while (reader2.Read())
-                {
-                    giannis.Text = reader2["AnswerId"].ToString();
-                    if (giannis.Text == "1")
-                    {
-                        cmd2.Parameters.AddWithValue("AnswerText", answer1.Text);
-                        answer1.Text = reader2["AnswerText"].ToString();
-                    }
-                    if (giannis.Text == "2")
-                    {
-
-                        cmd2.Parameters.AddWithValue("AnswerText", answer2.Text);
-                        answer2.Text = reader2["AnswerText"].ToString();
-                    }
-                    if(giannis.Text == "3")
-                    {
-                        cmd2.Parameters.AddWithValue("AnswerText", answer3.Text);
-                        answer3.Text = reader2["AnswerText"].ToString();
-                    }
-
-
-
-                }
-                
-                
-            }
-
-            catch (Exception ex)
-            {
-                MessageBox.Show("help me");
-                questionLabel.Text = ex.Message;
-
-
-            }
-            finally
-            {
-                conn.Close();
-            }
+            StartQuiz();
         }
 
-        private void answer1_Click(object sender, EventArgs e)
+        SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-9RR5NNA6\MSSQLSERVER01;Initial Catalog=Learn;Integrated Security=True;");
+
+        private int currentQuestionId = 0;
+        public int questioncounter = 1;
+
+
+        private void StartQuiz()
         {
-            
+            currentQuestionId = 1; // Start with the first question
+            LoadQuestion(currentQuestionId);
+        }
+
+        private void LoadQuestion(int questionId)
+        {
+            string queryQuestions = "SELECT QuestionText,QuestionID,UnitID FROM Questions " +
+                                    "WHERE QuestionID = @QuestionID AND UnitID='"+currentUnitID+"'";
+
+            SqlCommand command = new SqlCommand(queryQuestions, conn);
+            command.Parameters.AddWithValue("@QuestionID", questionId);
+
             try
             {
                 conn.Open();
-                SqlCommand cmd = new SqlCommand("SELECT QuestionText,QuestionId,UnitId FROM Questions",conn);
+                SqlDataReader reader = command.ExecuteReader();
 
-
-                cmd.Parameters.AddWithValue("QuestionText", questionLabel.Text);
-                cmd.Parameters.AddWithValue("UnitId", quizUnit.Text);
-
-
-
-                SqlDataReader reader1;
-
-                reader1 = cmd.ExecuteReader();
-
-                if (reader1.Read())
+                if (reader.Read())
                 {
-                    quizUnit.Text = "Unit " + reader1["UnitId"];
-                    questionLabel.Text = reader1["QuestionText"].ToString();
-
-
-
-
+                    // Display the question
+                    quizUnit.Text = "Unit " + reader["UnitId"];
+                    questionLabel.Text = reader["QuestionText"].ToString();
                 }
                 else
                 {
-                    MessageBox.Show("Den antexw allo");
-                }
-            }
+                    MessageBox.Show("No more questions.");
 
+                    conn.Close();
+
+                    this.Hide();
+                    var Menu = new Menu(username);
+                    Menu.Closed += (s, args) => this.Close();
+                    Menu.Show();
+                }
+
+                reader.Close();
+            }
             catch (Exception ex)
             {
-
-                questionLabel.Text = ex.Message;
-
-
+                MessageBox.Show($"Error retrieving question: {ex.Message}");
             }
             finally
             {
                 conn.Close();
             }
+
+            
+            string queryAnswers = "SELECT AnswerID,AnswerText FROM QuestionsAnswers WHERE QuestionID = @QuestionID";
+
+            SqlCommand command2 = new SqlCommand(queryAnswers, conn);
+            command2.Parameters.AddWithValue("@QuestionID", questionId);
 
             try
             {
-
                 conn.Open();
-                SqlCommand cmd2 = new SqlCommand("Select QuestionId,AnswerId,AnswerText from QuestionsAnswers ", conn);
-
-                cmd2.Parameters.AddWithValue("AnswerId", giannis.Text);
-
-                SqlDataReader reader2;
-
-                reader2 = cmd2.ExecuteReader();
+                SqlDataReader reader2 = command2.ExecuteReader();
 
                 while (reader2.Read())
                 {
-                    giannis.Text = reader2["AnswerId"].ToString();
-                    if (giannis.Text == "1")
+                    if (reader2["AnswerId"].ToString().Equals("1"))
                     {
-                        cmd2.Parameters.AddWithValue("AnswerText", answer1.Text);
-                        answer1.Text = reader2["AnswerText"].ToString();
+                        command2.Parameters.AddWithValue("AnswerText", buttonAnswer1.Text);
+                        buttonAnswer1.Text = reader2["AnswerText"].ToString();
                     }
-                    if (giannis.Text == "2")
+                    if (reader2["AnswerId"].ToString().Equals("2"))
                     {
-
-                        cmd2.Parameters.AddWithValue("AnswerText", answer2.Text);
-                        answer2.Text = reader2["AnswerText"].ToString();
+                        command2.Parameters.AddWithValue("AnswerText", buttonAnswer2.Text);
+                        buttonAnswer2.Text = reader2["AnswerText"].ToString();
                     }
-                    if (giannis.Text == "3")
+                    if (reader2["AnswerId"].ToString().Equals("3"))
                     {
-                        cmd2.Parameters.AddWithValue("AnswerText", answer3.Text);
-                        answer3.Text = reader2["AnswerText"].ToString();
+                        command2.Parameters.AddWithValue("AnswerText", buttonAnswer3.Text);
+                        buttonAnswer3.Text = reader2["AnswerText"].ToString();
                     }
-
-
-
                 }
 
-
+                reader2.Close();
             }
-
             catch (Exception ex)
             {
-                MessageBox.Show("help me");
-                questionLabel.Text = ex.Message;
-
-
+                MessageBox.Show($"Error retrieving question: {ex.Message}");
             }
             finally
             {
                 conn.Close();
             }
+
+        }
+
+        private void buttonAnswer1_Click(object sender, EventArgs e)
+        {
+            ShowNextQuestion();
+        }
+
+        private void buttonAnswer2_Click(object sender, EventArgs e)
+        {
+            ShowNextQuestion();
+        }
+
+        private void buttonAnswer3_Click(object sender, EventArgs e)
+        {
+            ShowNextQuestion();
+        }
+
+        private void ShowNextQuestion()
+        {
+            // Increment question ID to load the next question
+            currentQuestionId++;
+            LoadQuestion(currentQuestionId);
         }
     }
-    
 }

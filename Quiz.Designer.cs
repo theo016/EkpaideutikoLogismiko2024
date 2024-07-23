@@ -30,12 +30,10 @@
         {
             this.quizUnit = new System.Windows.Forms.Label();
             this.questionLabel = new System.Windows.Forms.Label();
-            this.answer1 = new System.Windows.Forms.Button();
-            this.answer2 = new System.Windows.Forms.Button();
-            this.answer3 = new System.Windows.Forms.Button();
+            this.buttonAnswer1 = new System.Windows.Forms.Button();
+            this.buttonAnswer2 = new System.Windows.Forms.Button();
+            this.buttonAnswer3 = new System.Windows.Forms.Button();
             this.giannis = new System.Windows.Forms.Label();
-            this.tester = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // quizUnit
@@ -58,33 +56,35 @@
             this.questionLabel.TabIndex = 1;
             this.questionLabel.Text = "label1";
             // 
-            // answer1
+            // buttonAnswer1
             // 
-            this.answer1.Location = new System.Drawing.Point(61, 407);
-            this.answer1.Name = "answer1";
-            this.answer1.Size = new System.Drawing.Size(209, 75);
-            this.answer1.TabIndex = 2;
-            this.answer1.Text = "button1";
-            this.answer1.UseVisualStyleBackColor = true;
-            this.answer1.Click += new System.EventHandler(this.answer1_Click);
+            this.buttonAnswer1.Location = new System.Drawing.Point(61, 407);
+            this.buttonAnswer1.Name = "buttonAnswer1";
+            this.buttonAnswer1.Size = new System.Drawing.Size(209, 75);
+            this.buttonAnswer1.TabIndex = 2;
+            this.buttonAnswer1.Text = "button1";
+            this.buttonAnswer1.UseVisualStyleBackColor = true;
+            this.buttonAnswer1.Click += new System.EventHandler(this.buttonAnswer1_Click);
             // 
-            // answer2
+            // buttonAnswer2
             // 
-            this.answer2.Location = new System.Drawing.Point(463, 407);
-            this.answer2.Name = "answer2";
-            this.answer2.Size = new System.Drawing.Size(209, 75);
-            this.answer2.TabIndex = 3;
-            this.answer2.Text = "button2";
-            this.answer2.UseVisualStyleBackColor = true;
+            this.buttonAnswer2.Location = new System.Drawing.Point(463, 407);
+            this.buttonAnswer2.Name = "buttonAnswer2";
+            this.buttonAnswer2.Size = new System.Drawing.Size(209, 75);
+            this.buttonAnswer2.TabIndex = 3;
+            this.buttonAnswer2.Text = "button2";
+            this.buttonAnswer2.UseVisualStyleBackColor = true;
+            this.buttonAnswer2.Click += new System.EventHandler(this.buttonAnswer2_Click);
             // 
-            // answer3
+            // buttonAnswer3
             // 
-            this.answer3.Location = new System.Drawing.Point(840, 407);
-            this.answer3.Name = "answer3";
-            this.answer3.Size = new System.Drawing.Size(209, 75);
-            this.answer3.TabIndex = 4;
-            this.answer3.Text = "button3";
-            this.answer3.UseVisualStyleBackColor = true;
+            this.buttonAnswer3.Location = new System.Drawing.Point(840, 407);
+            this.buttonAnswer3.Name = "buttonAnswer3";
+            this.buttonAnswer3.Size = new System.Drawing.Size(209, 75);
+            this.buttonAnswer3.TabIndex = 4;
+            this.buttonAnswer3.Text = "button3";
+            this.buttonAnswer3.UseVisualStyleBackColor = true;
+            this.buttonAnswer3.Click += new System.EventHandler(this.buttonAnswer3_Click);
             // 
             // giannis
             // 
@@ -95,36 +95,16 @@
             this.giannis.TabIndex = 5;
             this.giannis.Text = "label1";
             // 
-            // tester
-            // 
-            this.tester.AutoSize = true;
-            this.tester.Location = new System.Drawing.Point(64, 647);
-            this.tester.Name = "tester";
-            this.tester.Size = new System.Drawing.Size(35, 13);
-            this.tester.TabIndex = 6;
-            this.tester.Text = "label1";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(1123, 343);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "label1";
-            // 
             // Quiz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1159, 687);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.tester);
             this.Controls.Add(this.giannis);
-            this.Controls.Add(this.answer3);
-            this.Controls.Add(this.answer2);
-            this.Controls.Add(this.answer1);
+            this.Controls.Add(this.buttonAnswer3);
+            this.Controls.Add(this.buttonAnswer2);
+            this.Controls.Add(this.buttonAnswer1);
             this.Controls.Add(this.questionLabel);
             this.Controls.Add(this.quizUnit);
             this.Name = "Quiz";
@@ -140,11 +120,9 @@
 
         private System.Windows.Forms.Label quizUnit;
         private System.Windows.Forms.Label questionLabel;
-        private System.Windows.Forms.Button answer1;
-        private System.Windows.Forms.Button answer2;
-        private System.Windows.Forms.Button answer3;
+        private System.Windows.Forms.Button buttonAnswer1;
+        private System.Windows.Forms.Button buttonAnswer2;
+        private System.Windows.Forms.Button buttonAnswer3;
         private System.Windows.Forms.Label giannis;
-        private System.Windows.Forms.Label tester;
-        private System.Windows.Forms.Label label1;
     }
 }

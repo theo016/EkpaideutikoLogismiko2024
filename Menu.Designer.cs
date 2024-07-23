@@ -268,6 +268,7 @@
             this.VarsAndDataTypesQuiz.Size = new System.Drawing.Size(317, 25);
             this.VarsAndDataTypesQuiz.TabIndex = 44;
             this.VarsAndDataTypesQuiz.Text = "Variables and Data Types Quiz";
+            this.VarsAndDataTypesQuiz.Click += new System.EventHandler(this.VarsAndDataTypesQuiz_Click);
             // 
             // ConStrQuiz
             // 
@@ -279,6 +280,7 @@
             this.ConStrQuiz.Size = new System.Drawing.Size(244, 25);
             this.ConStrQuiz.TabIndex = 45;
             this.ConStrQuiz.Text = "Control Structures Quiz";
+            this.ConStrQuiz.Click += new System.EventHandler(this.ConStrQuiz_Click);
             // 
             // FuncQuiz
             // 
@@ -290,6 +292,7 @@
             this.FuncQuiz.Size = new System.Drawing.Size(164, 25);
             this.FuncQuiz.TabIndex = 46;
             this.FuncQuiz.Text = "Functions Quiz";
+            this.FuncQuiz.Click += new System.EventHandler(this.FuncQuiz_Click);
             // 
             // labelClicks
             // 

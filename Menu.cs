@@ -124,12 +124,35 @@ namespace EkpaideutikoLogismiko2024
 
         private void IntroQuiz_Click(object sender, EventArgs e)
         {
-
             this.Hide();
-            var Quiz = new Quiz(username);
+            var Quiz = new Quiz(username, 1);
             Quiz.Closed += (s, args) => this.Close();
             Quiz.Show();
 
+        }
+
+        private void VarsAndDataTypesQuiz_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var Quiz = new Quiz(username, 2);
+            Quiz.Closed += (s, args) => this.Close();
+            Quiz.Show();
+        }
+
+        private void ConStrQuiz_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var Quiz = new Quiz(username, 3);
+            Quiz.Closed += (s, args) => this.Close();
+            Quiz.Show();
+        }
+
+        private void FuncQuiz_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var Quiz = new Quiz(username, 4);
+            Quiz.Closed += (s, args) => this.Close();
+            Quiz.Show();
         }
     }
 }
