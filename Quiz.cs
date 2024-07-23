@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +16,7 @@ namespace EkpaideutikoLogismiko2024
     public partial class Quiz : Form
     {
         String username;
-        private int currentUnitID;
+        int currentUnitID;
 
         public Quiz(string username, int currentUnitID)
         {
@@ -31,13 +32,28 @@ namespace EkpaideutikoLogismiko2024
 
         SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-9RR5NNA6\MSSQLSERVER01;Initial Catalog=Learn;Integrated Security=True;");
 
-        private int currentQuestionId = 0;
+        private int currentQuestionId;
         public int questioncounter = 1;
 
 
         private void StartQuiz()
         {
-            currentQuestionId = 1; // Start with the first question
+            switch (currentUnitID)
+            {
+                case 1:
+                    currentQuestionId = 1;
+                    break;
+                case 2:
+                    currentQuestionId = 11;
+                    break;
+                case 3:
+                    currentQuestionId = 21;
+                    break;
+                case 4:
+                    currentQuestionId = 31;
+                    break;
+            }
+
             LoadQuestion(currentQuestionId);
         }
 
@@ -48,6 +64,7 @@ namespace EkpaideutikoLogismiko2024
 
             SqlCommand command = new SqlCommand(queryQuestions, conn);
             command.Parameters.AddWithValue("@QuestionID", questionId);
+            command.Parameters.AddWithValue("@UnitId", quizUnit.Text);
 
             try
             {
@@ -71,8 +88,6 @@ namespace EkpaideutikoLogismiko2024
                     Menu.Closed += (s, args) => this.Close();
                     Menu.Show();
                 }
-
-                reader.Close();
             }
             catch (Exception ex)
             {
@@ -83,7 +98,7 @@ namespace EkpaideutikoLogismiko2024
                 conn.Close();
             }
 
-            
+
             string queryAnswers = "SELECT AnswerID,AnswerText FROM QuestionsAnswers WHERE QuestionID = @QuestionID";
 
             SqlCommand command2 = new SqlCommand(queryAnswers, conn);
@@ -112,8 +127,6 @@ namespace EkpaideutikoLogismiko2024
                         buttonAnswer3.Text = reader2["AnswerText"].ToString();
                     }
                 }
-
-                reader2.Close();
             }
             catch (Exception ex)
             {
@@ -143,7 +156,6 @@ namespace EkpaideutikoLogismiko2024
 
         private void ShowNextQuestion()
         {
-            // Increment question ID to load the next question
             currentQuestionId++;
             LoadQuestion(currentQuestionId);
         }
