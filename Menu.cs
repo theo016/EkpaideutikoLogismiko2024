@@ -92,43 +92,6 @@ namespace EkpaideutikoLogismiko2024
             OOP.Show();
         }
 
-        /*private void Menu_Load(object sender, EventArgs e)
-        {
-            //clicks
-            string query = "SELECT UnitID, SUM(Clicks) AS TotalClicks FROM Clicks WHERE Username = @username GROUP BY UnitID";
-            SqlDataAdapter sda = new SqlDataAdapter(query, conn);
-            sda.SelectCommand.Parameters.AddWithValue("@username", (object)username ?? DBNull.Value);
-
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
-
-            if (dt.Rows.Count > 0)
-            {
-                // Δημιουργούμε ένα StringBuilder για να συγκεντρώσουμε τα clicks ανά UnitID
-                StringBuilder clicksInfo = new StringBuilder();
-                foreach (DataRow row in dt.Rows)
-                {
-                    int unitID = Convert.ToInt32(row["UnitID"]);
-                    int totalClicks = Convert.ToInt32(row["TotalClicks"]);
-                    clicksInfo.AppendLine($"Unit {unitID}: {totalClicks} clicks");
-                }
-                labelClicks.Text = clicksInfo.ToString();
-            }
-            else
-            {
-                labelClicks.Text = "No clicks found for the user.";
-            }
-
-            conn.Close();
-
-            label7.Text = username;
-
-
-
-            //stats
-            
-        }*/
-
         private void Menu_Load(object sender, EventArgs e)
         {
             // clicks
