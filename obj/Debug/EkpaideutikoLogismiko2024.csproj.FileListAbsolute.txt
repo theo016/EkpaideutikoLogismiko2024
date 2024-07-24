@@ -114,5 +114,4 @@ C:\Users\aapos\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\Ekpaideutiko
 C:\Users\aapos\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.OOP_BestPractices.resources
 C:\Users\aapos\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.Quiz.resources
 C:\Users\Empedus\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.Quiz.resources
-C:\Users\aapos\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.QuizTest.resources
 C:\Users\Empedus\Documents\GitHub\EkpaideutikoLogismiko2024\obj\Debug\EkpaideutikoLogismiko2024.QuizTest.resources
